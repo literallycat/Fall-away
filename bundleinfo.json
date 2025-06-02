@@ -1,0 +1,3242 @@
+{
+  "materials": {
+    "screen": {
+      "path": "assets/materials/common/screen.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.8207547,
+            0.8207547,
+            0.8207547,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "tv": {
+      "path": "assets/materials/common/tv.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "tvknob": {
+      "path": "assets/materials/common/tvknob.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            0.3773585,
+            0.3773585,
+            0.3773585,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.271,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.996,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "aaaaaaaaaa": {
+      "path": "assets/materials/housescene/aaaaaaaaaa.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "baseboard": {
+      "path": "assets/materials/housescene/baseboard.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            0.509434,
+            0.240299046,
+            0.240299046,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.5098039,
+            0.239215642,
+            0.239215642,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.692,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "floorcell": {
+      "path": "assets/materials/housescene/floorcell.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            0.7075472,
+            0.463604331,
+            0.233624086,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.7058823,
+            0.462745,
+            0.235294074,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "sky": {
+      "path": "assets/materials/housescene/sky.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            -1.0,
+            -2.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.5283019,
+            0.498397946,
+            0.498397946,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "sofa": {
+      "path": "assets/materials/housescene/sofa.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.3803921,
+            0.149019569,
+            0.09803919,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.614,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 0.464,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "space": {
+      "path": "assets/materials/housescene/space.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            0.7075472,
+            0.246974021,
+            0.246974021,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.207547158,
+            0.0606977344,
+            0.0606977344,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "table": {
+      "path": "assets/materials/housescene/table.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            2.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "wallpaper": {
+      "path": "assets/materials/housescene/wallpaper.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            0.24999994,
+            0.24999994,
+            0.24999994,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "wind": {
+      "path": "assets/materials/housescene/wind.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_LightDir": {
+          "value": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AmbientLight": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_Glow": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DistortionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DistortionIntensity": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AlbedoColor": {
+          "value": [
+            0.6509434,
+            0.6509434,
+            0.6509434,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Cutoff": {
+          "value": 0.5,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Glossiness": {
+          "value": 0.614,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossMapScale": {
+          "value": 0.464,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SmoothnessTextureChannel": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Metallic": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_MetallicGlossMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SpecularHighlights": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GlossyReflections": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColors": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsAlbedo": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_CustomColorsEmissive": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_BumpMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_Parallax": {
+          "value": 0.02,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ParallaxMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_OcclusionStrength": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_OcclusionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailAlbedoMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_DetailNormalMapScale": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DetailNormalMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_UVSec": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Culling": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Mode": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SrcBlend": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_DstBlend": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ZWrite": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ColorMask": {
+          "value": 15.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    }
+  },
+  "prefabs": {
+    "housescene": "assets/prefabs/housescene.prefab"
+  },
+  "bundleFiles": [
+    "/home/un/BSManager/SharedContent/CustomWIPLevels/Fall away/bundleWindows2021.vivify"
+  ],
+  "bundleCRCs": {
+    "_windows2021": 959823361
+  },
+  "isCompressed": false
+}
