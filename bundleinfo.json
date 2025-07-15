@@ -22255,11 +22255,7 @@
   "prefabs": {
     "housescene": "assets/prefabs/housescene.prefab"
   },
-  "bundleFiles": [
-    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
-  ],
-  "bundleCRCs": {
-    "_windows2021": 4202565527
-  },
+  "bundleFiles": [],
+  "bundleCRCs": {},
   "isCompressed": false
 }

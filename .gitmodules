@@ -1,6 +1,6 @@
-[submodule "Fall away unity/Assets/ShaderForge"]
-	path = Fall away unity/Assets/ShaderForge
-	url = https://github.com/FreyaHolmer/ShaderForge/
-[submodule "Fall away unity/Assets/VivifyTemplate"]
-	path = Fall away unity/Assets/VivifyTemplate
+[submodule "Fall away unity/submodules/VivifyTemplate"]
+	path = Fall away unity/submodules/VivifyTemplate
 	url = https://github.com/Swifter1243/VivifyTemplate
+[submodule "Fall away unity/submodules/ShaderForge"]
+	path = Fall away unity/submodules/ShaderForge
+	url = https://github.com/FreyaHolmer/ShaderForge/
