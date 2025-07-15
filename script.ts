@@ -32,7 +32,7 @@ prefabs.housescene.instantiate(map)
 
 
 pipeline.export({
-    outputDirectory: '/home/un/BSManager/BSInstances/1.40.6/Beat Saber_Data/CustomWIPLevels/OutputMaps'
+    outputDirectory: '/Volumes/Users/un/Desktop/OutputMaps'
 })
 
 

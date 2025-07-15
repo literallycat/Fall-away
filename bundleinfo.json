@@ -22256,10 +22256,10 @@
     "housescene": "assets/prefabs/housescene.prefab"
   },
   "bundleFiles": [
-    "/home/un/vivefyshi/projects/Fall away/bundleWindows2021.vivify"
+    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 3140265622
+    "_windows2021": 4202565527
   },
   "isCompressed": false
 }

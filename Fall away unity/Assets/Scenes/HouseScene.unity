@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12732285, g: 0.13415131, b: 0.12107972, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731762, g: 0.134147, b: 0.121078745, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -197,6 +197,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 302227234903202967, guid: 32e6deb269e0eb26884a1b0457a9ffce,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 833973aa5fb4a4941850715168d0647f,
+        type: 3}
+    - target: {fileID: 302227234903202967, guid: 32e6deb269e0eb26884a1b0457a9ffce,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2825333541717692794, guid: 32e6deb269e0eb26884a1b0457a9ffce,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2825333541717692794, guid: 32e6deb269e0eb26884a1b0457a9ffce,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.42
+      objectReference: {fileID: 0}
     - target: {fileID: 6017816308670431006, guid: 32e6deb269e0eb26884a1b0457a9ffce,
         type: 3}
       propertyPath: m_RootOrder
