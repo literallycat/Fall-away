@@ -3,7 +3,32 @@ guid: 42253746f01deaacbb3107c32edb39e5
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back
+    second: {fileID: 2100000, guid: 22e8f26564efd67489dc22276a4b24cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buttons
+    second: {fileID: 2100000, guid: 22e8f26564efd67489dc22276a4b24cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Feet
+    second: {fileID: 2100000, guid: 22e8f26564efd67489dc22276a4b24cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sit
+    second: {fileID: 2100000, guid: 22e8f26564efd67489dc22276a4b24cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surround
+    second: {fileID: 2100000, guid: 22e8f26564efd67489dc22276a4b24cc, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
