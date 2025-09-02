@@ -26,12 +26,13 @@ Shader "BeatSaber/Standard"
         [NoScaleOffset]_MetalTex ("Metallic", 2D) = "white" {}
         [Gamma]_Metallic ("Metallic", Range(0,1)) = 0
         _Smoothness ("Smoothness", Range(0,1)) = 0.5
+		[Enum(UnityEngine.Rendering.CullMode)] _Culling ("Cull Mode", Int) = 2
 
     }
     SubShader
     {
         Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
-        
+        Cull [_Culling]
         GrabPass { }
         
         Pass

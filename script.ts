@@ -23,7 +23,7 @@ map.require("Vivify")
 
 rm.environmentRemoval(map,["Environment"])
 
-prefabs.housescene.instantiate(map)
+prefabs.spacescene.instantiate(map)
 
 
 // ----------- { OUTPUT } -----------
@@ -32,7 +32,7 @@ prefabs.housescene.instantiate(map)
 
 
 pipeline.export({
-    outputDirectory: '/Volumes/Users/un/Desktop/OutputMaps'
+    outputDirectory: '/Users/un/Downloads/beat saber install/bsaber/Beat Saber_Data/CustomWIPLevels/FALL AWAY'
 })
 
 
