@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FakeWorld1
-  m_Shader: {fileID: 4800000, guid: 81252fb5646a14affa7c601cb7e7a67b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7755e6f3714ec4bc984e88f10c54190c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,6 +21,7 @@ Material:
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: 104003ab15a9f7a47b6ef0597225e771
     RenderType: Opaque
+    _ColorAnimated: 1
     _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
     _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
     _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
@@ -655,7 +656,7 @@ Material:
     - _DissolveApplyGlobalMaskIndex: 0
     - _DissolveDetailEdgeSmoothing: 0
     - _DissolveDetailNoiseUV: 0
-    - _DissolveDetailStrength: 0.1
+    - _DissolveDetailStrength: 0
     - _DissolveEdgeColorThemeIndex: 0
     - _DissolveEdgeEmission: 0
     - _DissolveEdgeHardness: 0.5
@@ -682,7 +683,7 @@ Material:
     - _DissolveP2PClamp: 0
     - _DissolveP2PEdgeLength: 0.1
     - _DissolveP2PWorldLocal: 0
-    - _DissolveTextureColorThemeIndex: 0
+    - _DissolveTextureColorThemeIndex: 1
     - _DissolveToEmissionStrength: 0
     - _DissolveToTextureUV: 0
     - _DissolveType: 1
@@ -2493,7 +2494,7 @@ Material:
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2563,11 +2564,11 @@ Material:
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
-    - m_start_PoiLightData: 0
+    - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
     - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
-    - m_start_RGBMask: 0
+    - m_start_RGBMask: 1
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
     - m_start_SphericalDissolve: 0
@@ -2637,7 +2638,7 @@ Material:
     - m_start_videoEffects: 0
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
-    - m_thirdpartyCategory: 0
+    - m_thirdpartyCategory: 1
     - m_vertexCategory: 0
     - s_end_ALAlpha: 0
     - s_end_ALDecalAudioModsOptions: 0
@@ -3213,7 +3214,7 @@ Material:
     - _DissolveMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveStartPoint: {r: 0, g: -1, b: 0, a: 0}
-    - _DissolveTextureColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveTextureColor: {r: 1, g: 0, b: 0, a: 1}
     - _DissolveToTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexture1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexturePan: {r: 0, g: 0, b: 0, a: 0}

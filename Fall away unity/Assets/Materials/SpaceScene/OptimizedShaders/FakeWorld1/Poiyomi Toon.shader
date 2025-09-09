@@ -3825,8 +3825,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				poiLight.lightMapNoAttenuation = poiLight.lightMap;
 				poiLight.lightMap *= lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, 0.0);
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, _Color.rgb, 0.0);
+				poiFragData.alpha = mainTexture.a * _Color.a;
 				if (2.0)
 				{
 					#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
@@ -7187,8 +7187,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				poiLight.lightMapNoAttenuation = poiLight.lightMap;
 				poiLight.lightMap *= lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, 0.0);
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, _Color.rgb, 0.0);
+				poiFragData.alpha = mainTexture.a * _Color.a;
 				if (2.0)
 				{
 					#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
@@ -9510,8 +9510,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				poiCam.vDotN = abs(dot(poiCam.viewDir, poiMesh.normals[1]));
 				poiCam.worldDirection.xyz = poiMesh.worldPos.xyz - poiCam.worldPos;
 				poiCam.worldDirection.w = i.worldDir.w;
-				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, float4(1,1,1,1).rgb, 0.0);
-				poiFragData.alpha = mainTexture.a * float4(1,1,1,1).a;
+				poiFragData.baseColor = mainTexture.rgb * poiThemeColor(poiMods, _Color.rgb, 0.0);
+				poiFragData.alpha = mainTexture.a * _Color.a;
 				if (2.0)
 				{
 					#if defined(PROP_ALPHAMASK) || !defined(OPTIMIZER_ENABLED)
