@@ -2095,7 +2095,7 @@
           }
         },
         "m_start_PoiLightData": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3724,6 +3724,51 @@
         }
       }
     },
+    "static": {
+      "path": "assets/materials/spacescene/static.mat",
+      "properties": {
+        "_ColorA": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_ColorB": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_ResX": {
+          "value": 100.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ResY": {
+          "value": 200.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ScaleWithZoom": {
+          "value": 0.926,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
     "rsih_saber_trail": {
       "path": "assets/rsih saber/rsih_saber_trail.mat",
       "properties": {
@@ -3742,14 +3787,16 @@
     }
   },
   "prefabs": {
+    "nuhouse": "assets/prefabs/nuhouse.prefab",
     "spacescene": "assets/prefabs/spacescene.prefab",
+    "tvv": "assets/prefabs/tvv.prefab",
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
     "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 1631143586
+    "_windows2021": 235582149
   },
-  "isCompressed": false
+  "isCompressed": true
 }

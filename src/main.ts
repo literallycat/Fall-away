@@ -35,15 +35,15 @@ rm.assignObjectPrefab(map, {
         },
     }) 
 
+const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
+
+fakeHouse.destroyObject(49)
+
 prefabs.spacescene.instantiate(map,Times.Space01)
 
 
 
 // ----------- { OUTPUT } -----------
-
-//!CHANGE THIS!!!!!!!
-
-
 pipeline.export({
     outputDirectory: '/Users/un/Downloads/beat saber install/bsaber/Beat Saber_Data/CustomWIPLevels/FALL AWAY'
 })
