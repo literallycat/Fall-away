@@ -3789,6 +3789,7 @@
   "prefabs": {
     "nuhouse": "assets/prefabs/nuhouse.prefab",
     "spacescene": "assets/prefabs/spacescene.prefab",
+    "testhud": "assets/prefabs/tests/testhud.prefab",
     "tvv": "assets/prefabs/tvv.prefab",
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
@@ -3796,7 +3797,7 @@
     "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 235582149
+    "_windows2021": 3031458081
   },
-  "isCompressed": true
+  "isCompressed": false
 }

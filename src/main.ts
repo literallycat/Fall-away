@@ -34,12 +34,22 @@ rm.assignObjectPrefab(map, {
             trailSamplingFrequency: 100,
         },
     }) 
-
+// instantiations and destruction
 const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
-
 fakeHouse.destroyObject(49)
+const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
+const testHud =prefabs.testhud.instantiate(map,Times.Space01)
 
-prefabs.spacescene.instantiate(map,Times.Space01)
+// animation/attaching
+rm.animateTrack(map,{
+    beat:53,
+    track: testHud.track.value,
+    animation: {
+        position:["baseHeadPosition.s10"],
+        rotation:["baseHeadRotation.10"]
+    }
+})
+
 
 
 
