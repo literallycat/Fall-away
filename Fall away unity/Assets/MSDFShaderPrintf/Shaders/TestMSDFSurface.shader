@@ -2,7 +2,7 @@ Shader "Unlit/TestMSDFSurface"
 {
 	Properties
 	{
-		_MSDFTex ("MSDF Texture", 2DArray) = "white" {}
+		_UdonMSDFPrintf ("MSDF Texture", 2DArray) = "white" {}
 	}
 	SubShader
 	{

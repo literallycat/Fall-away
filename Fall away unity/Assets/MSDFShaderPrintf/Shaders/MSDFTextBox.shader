@@ -2,7 +2,8 @@ Shader "Unlit/MSDFTextBox"
 {
 	Properties
 	{
-		
+				_UdonMSDFPrintf ("MSDF Texture", 2DArray) = "white" {}
+
 	}
 	SubShader
 	{

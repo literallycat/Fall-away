@@ -2,7 +2,7 @@ Shader "Unlit/TextureMSDFPrint"
 {
 	Properties
 	{
-		_MSDFTex ("MSDF Texture", 2DArray) = "white" {}
+		_UdonMSDFPrintf ("MSDF Texture", 2DArray) = "white" {}
 		_CheckTexture ("Check Texture", 2D) = "white" {}
 		[ToggleUI] _CombDisplay( "Combined Display", float ) = 0.0
 		[ToggleUI] _HexDisplay( "Hex Display", float ) = 0.0
