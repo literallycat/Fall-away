@@ -38,24 +38,28 @@ rm.assignObjectPrefab(map, {
 const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
 fakeHouse.destroyObject(49)
 const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
-const testHud =prefabs.testhud.instantiate(map,Times.Space01)
+Space01.destroyObject(Times.HyperDrive01)
+const HyperDrive01 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive01)
+HyperDrive01.destroyObject(Times.Space02)
+const Space02 = prefabs.space02.instantiate(map,Times.Space02)
+// const testHud =prefabs.testhud.instantiate(map,Times.Space01)
 
 // animation/attaching
-rm.animateTrack(map,{
-    beat:53,
-    track: testHud.track.value,
-    animation: {
-        position:["baseHeadPosition.s10"],
-        rotation:["baseHeadRotation.10"]
-    }
-})
+// rm.animateTrack(map,{
+//     beat:53,
+//     track: testHud.track.value,
+//     animation: {
+//         position:["baseHeadPosition.s10"],
+//         rotation:["baseHeadRotation.10"]
+//     }
+// })
 
 
 
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/Users/un/Downloads/beat saber install/bsaber/Beat Saber_Data/CustomWIPLevels/FALL AWAY'
+    outputDirectory: '/home/cat/BSManager/SharedContent/CustomWIPLevels/FALLAWAY'
 })
 
 
