@@ -79,6 +79,9 @@ Shader "Unlit/TestMSDFPrint"
 						'D', 'e', 'b', 'u', 'g', ' ', '2', ' ', ' ', ' ',
 						'D', 'e', 'b', 'u', 'g', ' ', '3', ' ', ' ', ' ',
 					};
+					const int newArr[12] = {
+						98,97,108,108,115,115,115,115,115,115,115,32
+					};
 					dig = floor( uv );
 					int val = sendarr[dig.x + dig.y * 10];
 					col = MSDFPrintChar( val, uv,  grad ).xxxy;

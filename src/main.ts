@@ -37,22 +37,17 @@ rm.assignObjectPrefab(map, {
 // instantiations and destruction
 const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
 fakeHouse.destroyObject(49)
+materials.static.blit(map,47,2)
 const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
 Space01.destroyObject(Times.HyperDrive01)
 const HyperDrive01 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive01)
 HyperDrive01.destroyObject(Times.Space02)
 const Space02 = prefabs.space02.instantiate(map,Times.Space02)
-// const testHud =prefabs.testhud.instantiate(map,Times.Space01)
+Space02.destroyObject(Times.HyperDrive02)
+const HyperDrive02 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive02)
+HyperDrive02.destroyObject(Times.EarthClosing)
+const EarthClosing = prefabs.EarthClosing.instantiate(map,Times.EarthClosing)
 
-// animation/attaching
-// rm.animateTrack(map,{
-//     beat:53,
-//     track: testHud.track.value,
-//     animation: {
-//         position:["baseHeadPosition.s10"],
-//         rotation:["baseHeadRotation.10"]
-//     }
-// })
 
 
 
