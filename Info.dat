@@ -3,33 +3,35 @@
   "_songName" : "Fall Away",
   "_songSubName" : "",
   "_songAuthorName" : "Zeds Dead",
-  "_levelAuthorName" : "literally cat",
+  "_levelAuthorName" : "literally cat & Pixy",
   "_beatsPerMinute" : 138,
-  "_previewStartTime" : 1,
-  "_previewDuration" : 8,
   "_songTimeOffset" : 0,
   "_shuffle" : 0,
   "_shufflePeriod" : 0.5,
-  "_coverImageFilename" : "cover.png",
+  "_previewStartTime" : 1,
+  "_previewDuration" : 8,
   "_songFilename" : "fall.ogg",
+  "_coverImageFilename" : "cover.png",
   "_environmentName" : "BillieEnvironment",
   "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
   "_environmentNames" : [
+    "BillieEnvironment"
   ],
   "_colorSchemes" : [
   ],
-  "_customData" : {
-    "_editors" : {
-      "_lastEditedBy" : "ChroMapper",
-      "ChroMapper" : {
-        "version" : "0.11.793"
-      }
-    }
-  },
   "_difficultyBeatmapSets" : [
     {
       "_beatmapCharacteristicName" : "Standard",
       "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "Expert",
+          "_difficultyRank" : 7,
+          "_beatmapFilename" : "ExpertStandard.dat",
+          "_noteJumpMovementSpeed" : 12,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0
+        },
         {
           "_difficulty" : "ExpertPlus",
           "_difficultyRank" : 9,
@@ -41,5 +43,19 @@
         }
       ]
     }
-  ]
+  ],
+  "_customData" : {
+    "_assetBundle" : {
+      "_windows2021" : 3031458081
+    },
+    "_editors" : {
+      "_lastEditedBy" : "ChroMapper",
+      "ChroMapper" : {
+        "version" : "0.13.892"
+      },
+      "ReMapper" : {
+        "version" : "4.1.0"
+      }
+    }
+  }
 }

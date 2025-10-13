@@ -3,7 +3,8 @@ Shader "Unlit/TestMSDFPrint"
 	Properties
 	{
 				_UdonMSDFPrintf ("MSDF Texture", 2DArray) = "white" {}
-		_Rev ("Horizontal Scroll", Range(0,1)) = 0
+		_VScroll ("Vertical Scroll", Range(0,1)) = 0
+		_HScroll ("Horizontal Scroll", Range(0,1)) = 0
 
 	}
 	SubShader
@@ -24,7 +25,8 @@ Shader "Unlit/TestMSDFPrint"
 			#include "UnityCG.cginc"
 			#include "../MSDFShaderPrintf.cginc"
 			#include "Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLink.cginc"
-			float _Rev;
+			float _VScroll;
+			float _HScroll;
 			struct appdata
 			{
 				float4 vertex : POSITION;
@@ -85,10 +87,15 @@ Shader "Unlit/TestMSDFPrint"
 					dig = floor( uv );
 					int val = sendarr[dig.x + dig.y * 10];
 					col = MSDFPrintChar( val, uv,  grad ).xxxy;
-					float revThreshold = _Rev * 14.0;
-					if (dig.y > revThreshold)
+					float VScrollThreshold = _VScroll * 14.0;
+					float HScrollThreshold = _HScroll * 14.0;
+					if (dig.y > VScrollThreshold)
 					{
 						col.a = 0;
+					}
+					if (dig.x > HScrollThreshold)
+					{
+						col.a =0;
 					}
 
 					

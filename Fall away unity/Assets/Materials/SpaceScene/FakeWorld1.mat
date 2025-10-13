@@ -57,10 +57,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5744e05309bd344dfa9f5a650587fa39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _UzumoreMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - GeometryShader_Enabled: 1
     - Instancing: 0
@@ -2390,7 +2386,7 @@ Material:
     - _VoronoiScale: 5
     - _VoronoiSpace: 0
     - _VoronoiType: 1
-    - _ZClip: 1
+    - _ZClip: 0
     - _ZTest: 4
     - _ZWrite: 1
     - _ppHueSelectOrShift: 1
@@ -2551,7 +2547,7 @@ Material:
     - m_lightingCategory: 1
     - m_mainCategory: 1
     - m_modifierCategory: 0
-    - m_renderingCategory: 0
+    - m_renderingCategory: 1
     - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0

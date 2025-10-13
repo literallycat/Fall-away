@@ -1822,13 +1822,13 @@
             "Float": null
           }
         },
-        "footer_website": {
+        "footer_youtube": {
           "value": 0.0,
           "type": {
             "Float": null
           }
         },
-        "footer_discord": {
+        "footer_twitter": {
           "value": 0.0,
           "type": {
             "Float": null
@@ -1840,25 +1840,13 @@
             "Float": null
           }
         },
-        "footer_youtube": {
+        "footer_discord": {
           "value": 0.0,
           "type": {
             "Float": null
           }
         },
         "footer_github": {
-          "value": 0.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "footer_bluesky": {
-          "value": 0.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "footer_twitter": {
           "value": 0.0,
           "type": {
             "Float": null
@@ -2478,12 +2466,6 @@
             "Float": null
           }
         },
-        "_LightingEnableLightVolumes": {
-          "value": 1.0,
-          "type": {
-            "Float": null
-          }
-        },
         "s_end_LightDataBasePass": {
           "value": 1.0,
           "type": {
@@ -2700,54 +2682,6 @@
           }
         },
         "m_vertexCategory": {
-          "value": 0.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "m_start_Uzumore": {
-          "value": 0.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "_UzumoreCategoryToggle": {
-          "value": 0.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "_UzumoreEnabled": {
-          "value": 1.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "_UzumoreAmount": {
-          "value": 0.1,
-          "type": {
-            "Float": null
-          }
-        },
-        "_UzumoreBias": {
-          "value": 0.001,
-          "type": {
-            "Float": null
-          }
-        },
-        "_UzumoreMask": {
-          "value": "",
-          "type": {
-            "Texture": null
-          }
-        },
-        "_UzumoreMaskUV": {
-          "value": 3.0,
-          "type": {
-            "Float": null
-          }
-        },
-        "m_end_Uzumore": {
           "value": 0.0,
           "type": {
             "Float": null
@@ -3031,6 +2965,42 @@
             "Float": null
           }
         },
+        "s_start_hextile": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_StochasticHexGridDensity": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_StochasticHexRotationStrength": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_StochasticHexFallOffContrast": {
+          "value": 0.6,
+          "type": {
+            "Float": null
+          }
+        },
+        "_StochasticHexFallOffPower": {
+          "value": 7.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_hextile": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
         "m_end_Stochastic": {
           "value": 0.0,
           "type": {
@@ -3283,7 +3253,7 @@
           }
         },
         "m_renderingCategory": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3331,7 +3301,7 @@
           }
         },
         "_ZClip": {
-          "value": 1.0,
+          "value": 0.0,
           "type": {
             "Float": null
           }
@@ -3355,6 +3325,42 @@
           }
         },
         "_RenderingEarlyZEnabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "m_start_WorldAOBlocker": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_RenderingAOBlockerNote": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_RenderingAOBlockerEnabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_RenderingAOBlockerUVChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_RenderingAOBlockerFlipNormal": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "m_end_WorldAOBlocker": {
           "value": 0.0,
           "type": {
             "Float": null
@@ -3738,13 +3744,13 @@
           }
         },
         "_ResX": {
-          "value": 100.0,
+          "value": 50.0,
           "type": {
             "Float": null
           }
         },
         "_ResY": {
-          "value": 200.0,
+          "value": 50.0,
           "type": {
             "Float": null
           }
@@ -3775,6 +3781,7 @@
     }
   },
   "prefabs": {
+    "earthclosing": "assets/prefabs/earthclosing.prefab",
     "hyperdrive01": "assets/prefabs/hyperdrive01.prefab",
     "nuhouse": "assets/prefabs/nuhouse.prefab",
     "space02": "assets/prefabs/space02.prefab",
@@ -3784,10 +3791,12 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
-    "/home/cat/Unity/Fall-away/bundleWindows2021.vivify"
+    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify",
+    "/Users/un/RiderProjects/Fall-away/bundleWindows2019.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 209538142
+    "_windows2021": 2873083639,
+    "_windows2019": 3928658319
   },
   "isCompressed": true
 }

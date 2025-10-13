@@ -50,6 +50,7 @@ Shader "ddShaders/ddTVStatic"
                 float4 vertex : POSITION;
                 float4 texcoord0 : TEXCOORD0;
                 float4 texcoord2 : TEXCOORD2;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
            
             struct fragmentInput
@@ -57,13 +58,17 @@ Shader "ddShaders/ddTVStatic"
                 float4 position : SV_POSITION;//SV_POSITION
                 float4 texcoord0 : TEXCOORD0;
                 float4 camDist : TEXCOORD2;
+                UNITY_VERTEX_OUTPUT_STEREO 
             };
            
             fragmentInput vert(vertexInput i)
             {
                
                 fragmentInput o;
+                UNITY_SETUP_INSTANCE_ID(i);
                 UNITY_INITIALIZE_OUTPUT(fragmentInput, o); //5-28-2016 added to fix d3d11 errors
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o)
+                
                
                 o.position = UnityObjectToClipPos (i.vertex);
                 o.texcoord0 = i.texcoord0;

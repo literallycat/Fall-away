@@ -402,7 +402,8 @@ PrefabInstance:
       propertyPath: ShapeModule.sphericalDirectionAmount
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8490950221972297885, guid: 85f3fa712046f4d779ef66a342dc297d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 85f3fa712046f4d779ef66a342dc297d, type: 3}
 --- !u!1 &9155980083329696700 stripped
 GameObject:
