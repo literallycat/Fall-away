@@ -8,9 +8,18 @@ To build genall.exe, install tinycc, then run: `tcc .source/genall.c` then run `
 
 I.e. if you want to change properties of the MSDF Fonts.
 
+FontGen.cs takes the .temp glyphs and converts them into a texarray that unity 2019 can read correctly
+
+The `New Arbitrary Text` shader takes a texture with the following properties
+each pixel encodes the ascii in the red channel
+the first 2 pixels MUST dictate the number of TextW and TextH respectively 
+the included demo image contains:
+```
+Hello, World! 
+Or maybe not?
+```
+encoded, or.. just use the `TextGen.cs` script which should automate this for you
 In here is also `MSDFShaderPrintf.cginc`, which provides:
-
-
 ```c
 // For directly evaluating a given glyph index based on uv, smooth uv, will return central hit and shadow opacities.
 float2 MSDFEval( float2 texCoord, int index, float2 screenPxRange, float2 suv )

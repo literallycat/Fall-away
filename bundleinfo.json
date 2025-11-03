@@ -3756,7 +3756,7 @@
           }
         },
         "_ScaleWithZoom": {
-          "value": 0.926,
+          "value": 0.179,
           "type": {
             "Float": null
           }
@@ -3784,19 +3784,17 @@
     "earthclosing": "assets/prefabs/earthclosing.prefab",
     "hyperdrive01": "assets/prefabs/hyperdrive01.prefab",
     "nuhouse": "assets/prefabs/nuhouse.prefab",
+    "tvv": "assets/prefabs/old/tvv.prefab",
     "space02": "assets/prefabs/space02.prefab",
     "spacescene": "assets/prefabs/spacescene.prefab",
     "testhud": "assets/prefabs/tests/testhud.prefab",
-    "tvv": "assets/prefabs/tvv.prefab",
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
-    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify",
-    "/Users/un/RiderProjects/Fall-away/bundleWindows2019.vivify"
+    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 2873083639,
-    "_windows2019": 3928658319
+    "_windows2021": 669984408
   },
   "isCompressed": true
 }

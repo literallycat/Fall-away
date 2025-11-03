@@ -67,8 +67,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ResX: 50
-    - _ResY: 50
+    - _ResX: 65.6
+    - _ResY: 64.4
     - _ScaleWithZoom: 0.179
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

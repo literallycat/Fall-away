@@ -2,17 +2,19 @@ Shader "Custom/TextPrint"
 {
     Properties
     {
-        _UdonMSDFPrintf ("MSDF Texture", 2D) = "white" {}
+        _UdonMSDFPrintf ("MSDF Texture", 2DArray) = "white" {}
         // generation from TextGen.cs
         _TextTex ("Text Texture", 2D) = "white" {}
-		_Rev ("Horizontal Scroll", Range(0,1)) = 0
+        _FGColor ("Colour",Color) = (0,0,0,0)
+    			_VScroll ("Vertical Scroll", Range(0,1)) = 0
+		_HScroll ("Horizontal Scroll", Range(0,1)) = 0
+
 
     }
     SubShader
     {
-        Tags {
-            "RenderType"="Opaque"
-        }
+       		Tags {"Queue"="Transparent" "RenderType"="Transparent"}
+
 
         Pass
         {
@@ -23,14 +25,8 @@ Shader "Custom/TextPrint"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-            // thanks cnolr sm for making this
 			#include "../MSDFShaderPrintf.cginc"
 
-            // VivifyTemplate Libraries
-            // #include "Assets/VivifyTemplate/Utilities/Shader Functions/Noise.cginc"
-            // #include "Assets/VivifyTemplate/Utilities/Shader Functions/Colors.cginc"
-            // #include "Assets/VivifyTemplate/Utilities/Shader Functions/Math.cginc"
-            // #include "Assets/VivifyTemplate/Utilities/Shader Functions/Easings.cginc"
 
             struct appdata
             {
@@ -46,8 +42,13 @@ Shader "Custom/TextPrint"
                 UNITY_VERTEX_OUTPUT_STEREO
             };
             float _Rev;
-            sampler2D _TextTex;
-            float4 _TextTex_TexelSize;
+            uniform Texture2D<float4> _TextTex;
+            #define texGrab(xycoord) (_TextTex[xycoord].r*255)
+            float4 _FGColor;
+            uniform half4 _TextTex_TexelSize;
+			float _VScroll;
+			float _HScroll;
+
 
             v2f vert (appdata v)
             {
@@ -63,9 +64,28 @@ Shader "Custom/TextPrint"
 
             fixed4 frag (v2f i) : SV_Target
             {
-				float4 col = 0.0;
-                int lines = _TextTex_TexelSize.x;
-                int columns = _TextTex_TexelSize.y;
+                int TextW = texGrab(uint2(0,0));
+                int TextH = texGrab(uint2(1,0));
+				float2 inuv = i.uv ;
+				inuv.y = 1.0 - inuv.y;
+				float2 uv = inuv * float2( TextW, TextH );
+
+				float2 gradval = uv;
+				float4 grad = float4( ddx(gradval), ddy(gradval) );
+                
+				int2 dig = floor( uv );
+				int val = texGrab(uint2((dig.x + dig.y * TextW) +2,0));
+				float4 col = MSDFPrintChar( val, uv,  grad ).xxxy * _FGColor;
+            	float VScrollThreshold = _VScroll * TextW;
+					float HScrollThreshold = _HScroll * TextW;
+					if (dig.y > VScrollThreshold)
+					{
+						col.a = 0;
+					}
+					if (dig.x > HScrollThreshold)
+					{
+						col.a =0;
+					}
                 return col;
             }
             ENDCG

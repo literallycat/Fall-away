@@ -56,7 +56,7 @@ Shader "Unlit/MSDFTextBox"
 				
 				int lines = _TextH;
 				int columns = _TextW;
-				float2 inuv = i.uv;
+				float2 inuv = i.uv ;
 				inuv.y = 1.0 - inuv.y;
 				float2 uv = inuv * float2( columns, lines );
 				int2 dig = floor( uv );
