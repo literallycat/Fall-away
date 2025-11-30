@@ -3744,13 +3744,13 @@
           }
         },
         "_ResX": {
-          "value": 50.0,
+          "value": 65.6,
           "type": {
             "Float": null
           }
         },
         "_ResY": {
-          "value": 50.0,
+          "value": 64.4,
           "type": {
             "Float": null
           }
@@ -3782,6 +3782,7 @@
   },
   "prefabs": {
     "earthclosing": "assets/prefabs/earthclosing.prefab",
+    "hud": "assets/prefabs/hud.prefab",
     "hyperdrive01": "assets/prefabs/hyperdrive01.prefab",
     "nuhouse": "assets/prefabs/nuhouse.prefab",
     "tvv": "assets/prefabs/old/tvv.prefab",
@@ -3791,10 +3792,12 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
+    "/Users/un/RiderProjects/Fall-away/bundleWindows2019.vivify",
     "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 669984408
+    "_windows2019": 3491293546,
+    "_windows2021": 2426665378
   },
   "isCompressed": true
 }
