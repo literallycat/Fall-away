@@ -41,16 +41,33 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     // instantiations and destruction
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
     fakeHouse.destroyObject(49)
+
     materials.static.blit(map,47,2)
+
     const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
     Space01.destroyObject(Times.HyperDrive01)
+
     const HyperDrive01 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive01)
     HyperDrive01.destroyObject(Times.Space02)
+
     const Space02 = prefabs.space02.instantiate(map,Times.Space02)
     Space02.destroyObject(Times.HyperDrive02)
+
     const HyperDrive02 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive02)
     HyperDrive02.destroyObject(Times.EarthClosing)
+
     const EarthClosing = prefabs.earthclosing.instantiate(map,Times.EarthClosing)
+
+
+
+    // do da drop on those notes at the start
+    rm.noteIterator().betweenTime(0,Times.Space01).addProcess(note => 
+        note.animation.definitePosition = [
+        [0, 4, 8, 0],
+        [0, 0, 7, .25, 'easeOutSine'],
+        [0, 0, 0, .5, 'easeLinear'],
+        [0, 0, -20, 1]
+    ]).addProcess(note => note.life = (5))
 }
 
 await Promise.all([
