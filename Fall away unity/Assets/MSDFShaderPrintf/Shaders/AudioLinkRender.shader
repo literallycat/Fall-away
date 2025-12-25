@@ -22,6 +22,7 @@ Shader "Custom/AudioLinkRender"
             #include "UnityCG.cginc"
 			#include "../MSDFShaderPrintf.cginc"
             #include "Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLink.cginc"
+            #include "Packages/com.llealloo.audiolink/Runtime/Shaders/SmoothPixelFont.cginc"
 
         
 
@@ -57,42 +58,52 @@ Shader "Custom/AudioLinkRender"
 
             fixed4 frag (v2f i) : SV_Target
             {
-	            int xoffset = 5;
-            	float2 inuv = i.uv;
+                float value = 0;
+                
+                int cols = 8;
+                int rows = 1;
+				float2 inuv = i.uv ;
 				inuv.y = 1.0 - inuv.y;
-				float2 uv = inuv*float2( 11, 1 );;
-				int2 dig = floor( uv );
+				float2 uv = inuv * float2( cols, rows );
 
 				float2 gradval = uv;
 				float4 grad = float4( ddx(gradval), ddy(gradval) );
-            	// 2: Time since level start in milliseconds.
+                
+				int2 dig = floor( uv );
 
-				float value = AudioLinkDecodeDataAsSeconds(ALPASS_GENERALVU_INSTANCE_TIME);
-				float seconds = glsl_mod(value, 60);
-				int minutes = (value/60) % 60;
-				int hours = (value/3600);
-				value = hours * 10000 + minutes * 100 + seconds;
-				
-				if( dig.x < 3 )
-				{
-					value = hours;
-					xoffset = 2;
-				}
-				else if( dig.x < 6 )
-				{
-					value = minutes;
-					xoffset = 5;
-				}
-				else if( dig.x > 5)
-				{
-					value = seconds;
-					xoffset = 8;
-				}
-            	float2 fielduv = ( uv + float2(-10., 0.0 ) ) * float2( 1.0/11.0, 1.0 );
-            	
-				fixed4 col = MSDFPrintNum( value, fielduv, grad, 11.0, 10, true, -xoffset ).xxxy;
+                value = 0;
+                int xoffset = 5;
+                bool leadingzero = false;
+                int points_after_decimal = 0; 
+                int max_decimals = 6;
 
+                value = AudioLinkDecodeDataAsSeconds( ALPASS_GENERALVU_INSTANCE_TIME );
+                    float seconds = glsl_mod(value, 60);
+                    int minutes = (value/60) % 60;
+                    int hours = (value/3600);
+                    value = hours * 10000 + minutes * 100 + seconds;
+                    
+                    if( dig.x < 3 )
+                    {
+                        value = hours;
+                        xoffset = 2;
+                        leadingzero = 1;
+                    }
+                    else if( dig.x < 5 )
+                    {
+                        value = minutes;
+                        xoffset = 5;
+                        leadingzero = 1;
+                    }
+                    else if( dig.x > 5)
+                    {
+                        value = seconds;
+                        xoffset = 8;
+                        leadingzero = 1;
+                    }
+                float4 col = MSDFPrintNum(value,uv,grad,dig.x-xoffset, points_after_decimal, leadingzero, 0).xxxy;
                 return col;
+                //return PrintNumberOnLine( value, fmxy, softness, dig.x - xoffset, points_after_decimal, max_decimals, leadingzero, 0 );
             }
             ENDCG
         }

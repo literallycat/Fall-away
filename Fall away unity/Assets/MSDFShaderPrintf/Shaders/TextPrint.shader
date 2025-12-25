@@ -76,7 +76,7 @@ Shader "Custom/TextPrint"
 				int2 dig = floor( uv );
 				int val = texGrab(uint2((dig.x + dig.y * TextW) +2,0));
 				float4 col = MSDFPrintChar( val, uv,  grad ).xxxy * _FGColor;
-            	float VScrollThreshold = _VScroll * TextW;
+            	float VScrollThreshold = _VScroll * TextH;
 					float HScrollThreshold = _HScroll * TextW;
 					if (dig.y > VScrollThreshold)
 					{
