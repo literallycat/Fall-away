@@ -10,3 +10,6 @@
 [submodule "Fall away unity/Assets/VRC-Avatar-Performance-Tools"]
 	path = Fall away unity/Assets/VRC-Avatar-Performance-Tools
 	url = https://github.com/Thryrallo/VRC-Avatar-Performance-Tools
+[submodule "remapper"]
+	path = remapper
+	url = https://github.com/Swifter1243/ReMapper/
