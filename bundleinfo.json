@@ -3778,6 +3778,200 @@
           }
         }
       }
+    },
+    "cpyright": {
+      "path": "assets/text/cpyright.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "hyprdrive": {
+      "path": "assets/text/hyprdrive.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "infoboxs1": {
+      "path": "assets/text/infoboxs1.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "title": {
+      "path": "assets/text/title.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "user": {
+      "path": "assets/text/user.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
     }
   },
   "prefabs": {
@@ -3792,12 +3986,12 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
-    "/Users/un/RiderProjects/Fall-away/bundleWindows2019.vivify",
-    "/Users/un/RiderProjects/Fall-away/bundleWindows2021.vivify"
+    "/Volumes/ExternalUsrPrf/RiderProjects/Fall-away/bundleWindows2021.vivify",
+    "/Volumes/ExternalUsrPrf/RiderProjects/Fall-away/bundleWindows2019.vivify"
   ],
   "bundleCRCs": {
-    "_windows2019": 3491293546,
-    "_windows2021": 2426665378
+    "_windows2021": 1470484953,
+    "_windows2019": 1779922338
   },
   "isCompressed": true
 }

@@ -1,4 +1,4 @@
-import * as rm from "https://deno.land/x/remapper@4.2.0/src/mod.ts"
+import * as rm from "../remapper/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
 import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
@@ -36,8 +36,8 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
 
     // create ui stuff
-    const HUD = prefabs.hud.instantiate(map,Times.Space01)
-    rm.animateTrack(map,{beat: Times.Space01, track: HUD.track.value, animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
+    const HUD = prefabs.hud.instantiate(map,{beat: Times.Space01, track: "HUDTrack"})
+    rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
     // instantiations and destruction
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
     fakeHouse.destroyObject(49)
@@ -56,7 +56,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     const HyperDrive02 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive02)
     HyperDrive02.destroyObject(Times.EarthClosing)
 
-    const EarthClosing = prefabs.earthclosing.instantiate(map,Times.EarthClosing)
+    prefabs.earthclosing.instantiate(map,Times.EarthClosing)
 
 
 
@@ -78,7 +78,7 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/Users/un/Downloads/beat saber install/bsaber/Beat Saber_Data/CustomWIPLevels/FALLAWAY'
+    outputDirectory: '/Users/un/Downloads/FALLAWAY'
 })
 
 

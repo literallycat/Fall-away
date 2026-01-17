@@ -1,4 +1,4 @@
-Shader "Custom/PlayerNameText"
+Shader "MSDFShaderUn/PlayerNameText"
 {
     Properties
     {
