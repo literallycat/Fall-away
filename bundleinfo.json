@@ -3990,8 +3990,8 @@
     "/Volumes/ExternalUsrPrf/RiderProjects/Fall-away/bundleWindows2019.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 1470484953,
-    "_windows2019": 1779922338
+    "_windows2021": 327579694,
+    "_windows2019": 1984466645
   },
-  "isCompressed": true
+  "isCompressed": false
 }
