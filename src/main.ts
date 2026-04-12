@@ -1,4 +1,4 @@
-import * as rm from "../remapper/src/mod.ts"
+import * as rm from "https://deno.land/x/remapper@4.2.1/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
 import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
@@ -19,9 +19,21 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     const map = await rm.readDifficultyV3(pipeline, file)
     map.require("Chroma")
     map.require("Vivify")
+    map.require("AudioLink")
 
 
-    rm.environmentRemoval(map,["Environment"])
+    rm.environmentRemoval(map, [
+        'WaterRainRipples',
+        'RectangleFakeGlow',
+        'Mirror',
+        'Waterfall',
+        'Mountains',
+        'DirectionalLight',
+        'Clouds',
+        'Rail',
+        'Rain',
+        'Environment'
+    ])
     rm.assignObjectPrefab(map, {
             saber: {
                 type: 'Both',
@@ -36,9 +48,9 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
 
     // create ui stuff
-    const HUD = prefabs.hud.instantiate(map,{beat: Times.Space01, track: "HUDTrack"})
-    rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
-    // instantiations and destruction
+    const _HUD = prefabs.hudenabled.instantiate(map,{ track: "HUDTrack"})
+    rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", duration: 99999, animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
+    // instantiations and destructionk
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
     fakeHouse.destroyObject(49)
 
@@ -58,16 +70,6 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
     prefabs.earthclosing.instantiate(map,Times.EarthClosing)
 
-
-
-    // do da drop on those notes at the start
-    rm.noteIterator().betweenTime(0,Times.Space01).addProcess(note => 
-        note.animation.definitePosition = [
-        [0, 4, 8, 0],
-        [0, 0, 7, .25, 'easeOutSine'],
-        [0, 0, 0, .5, 'easeLinear'],
-        [0, 0, -20, 1]
-    ]).addProcess(note => note.life = (5))
 }
 
 await Promise.all([
@@ -78,7 +80,7 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/Users/un/Downloads/FALLAWAY'
+    outputDirectory: '/home/cat/Downloads/FALLAWAY'
 })
 
 

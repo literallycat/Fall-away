@@ -1895,7 +1895,7 @@
           }
         },
         "m_mainCategory": {
-          "value": 1.0,
+          "value": 0.0,
           "type": {
             "Float": null
           }
@@ -2083,7 +2083,7 @@
           }
         },
         "m_lightingCategory": {
-          "value": 1.0,
+          "value": 0.0,
           "type": {
             "Float": null
           }
@@ -2681,6 +2681,473 @@
             "Float": null
           }
         },
+        "m_start_emissionOptions": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EnableEmission": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMask": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionMaskPan": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_EmissionMaskUV": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMaskChannel": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMaskInvert": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMask0GlobalMask": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMask0GlobalMaskBlendType": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionColor": {
+          "value": [
+            0.7372549,
+            0.13333334,
+            0.0235294122,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_EmissionColorThemeIndex": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionMap": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionMapPan": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_EmissionMapUV": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionStrength": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionBaseColorAsMap": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionReplace0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionFluorescence": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionHueShift0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionHueShiftEnabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionHueShiftColorSpace": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionHueSelectOrShift": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionSaturation": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionHueShift": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionHueShiftSpeed": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_EmissionHueShift0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionCenterOut0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionCenterOutEnabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionCenterOutSpeed": {
+          "value": 5.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_EmissionCenterOut0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionLightBased0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EnableGITDEmission": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GITDEWorldOrMesh": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GITDEMinEmissionMultiplier": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GITDEMaxEmissionMultiplier": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GITDEMinLight": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_GITDEMaxLight": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_EmissionLightBased0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionBlinking0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionBlinkingEnabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveBlink_Min": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveBlink_Max": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveBlink_Velocity": {
+          "value": 4.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionBlinkingOffset": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_EmissionBlinking0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_ScrollingEmission0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_ScrollingEmission": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionScrollingUseCurve": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionScrollingCurve": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_EmissionScrollingVertexColor": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveScroll_Direction": {
+          "value": [
+            0.0,
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_EmissiveScroll_Width": {
+          "value": 10.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveScroll_Velocity": {
+          "value": 10.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissiveScroll_Interval": {
+          "value": 20.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionScrollingOffset": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_ScrollingEmission0": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionAL0Enabled": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionAL0Multiply": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionAL0MultipliersBand": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionAL0Multipliers": {
+          "value": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "s_end_EmissionAL0Multiply": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionAL0Add": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionAL0StrengthBand": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_EmissionAL0StrengthMod": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "s_end_EmissionAL0Add": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_start_EmissionAL0COut": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AudioLinkEmission0CenterOutBand": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AudioLinkEmission0CenterOut": {
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": {
+            "Vector": null
+          }
+        },
+        "_AudioLinkEmission0CenterOutSize": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_AudioLinkEmission0CenterOutDuration": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "s_end_EmissionAL0COut": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "m_end_emissionOptions": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
         "m_vertexCategory": {
           "value": 0.0,
           "type": {
@@ -3175,7 +3642,7 @@
           }
         },
         "m_thirdpartyCategory": {
-          "value": 1.0,
+          "value": 0.0,
           "type": {
             "Float": null
           }
@@ -3253,7 +3720,7 @@
           }
         },
         "m_renderingCategory": {
-          "value": 1.0,
+          "value": 0.0,
           "type": {
             "Float": null
           }
@@ -3796,9 +4263,9 @@
         },
         "_FGColor": {
           "value": [
-            0.0,
-            0.0,
-            0.0,
+            1.0,
+            1.0,
+            1.0,
             1.0
           ],
           "type": {
@@ -3806,13 +4273,13 @@
           }
         },
         "_VScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
         },
         "_HScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3846,13 +4313,13 @@
           }
         },
         "_VScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
         },
         "_HScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3876,9 +4343,9 @@
         },
         "_FGColor": {
           "value": [
-            0.0,
-            0.0,
-            0.0,
+            1.0,
+            1.0,
+            1.0,
             1.0
           ],
           "type": {
@@ -3886,13 +4353,13 @@
           }
         },
         "_VScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
         },
         "_HScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3916,9 +4383,9 @@
         },
         "_FGColor": {
           "value": [
-            0.0,
-            0.0,
-            0.0,
+            1.0,
+            1.0,
+            1.0,
             1.0
           ],
           "type": {
@@ -3932,7 +4399,7 @@
           }
         },
         "_HScroll": {
-          "value": 0.0,
+          "value": 1.0,
           "type": {
             "Float": null
           }
@@ -3977,6 +4444,7 @@
   "prefabs": {
     "earthclosing": "assets/prefabs/earthclosing.prefab",
     "hud": "assets/prefabs/hud.prefab",
+    "hudenabled": "assets/prefabs/hudenabled.prefab",
     "hyperdrive01": "assets/prefabs/hyperdrive01.prefab",
     "nuhouse": "assets/prefabs/nuhouse.prefab",
     "tvv": "assets/prefabs/old/tvv.prefab",
@@ -3986,12 +4454,10 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
-    "/Volumes/ExternalUsrPrf/RiderProjects/Fall-away/bundleWindows2021.vivify",
-    "/Volumes/ExternalUsrPrf/RiderProjects/Fall-away/bundleWindows2019.vivify"
+    "/home/cat/RiderProjects/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 327579694,
-    "_windows2019": 1984466645
+    "_windows2021": 275507373
   },
   "isCompressed": false
 }

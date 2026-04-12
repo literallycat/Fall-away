@@ -665,7 +665,6 @@ namespace AudioLink
             if (!Networking.IsOwner(gameObject))
                 Networking.SetOwner(_localPlayer, gameObject);
 #endif
-            UpdateGlobalString(_StringLocalPlayer,"Jeremy SCP");
 
             UpdateGlobalString(_StringCustom1, customString1);
             UpdateGlobalString(_StringCustom2, customString2);
