@@ -8,6 +8,8 @@
         public static readonly string UnityHubPath = "C:/Program Files/Unity Hub/Unity Hub.exe";
 #elif UNITY_EDITOR_OSX
         public static readonly string UnityHubPath = "/Applications/Unity Hub.app/Contents/MacOS/Unity Hub";
+#else
+        public static readonly string UnityHubPath = "/usr/bin/unityhub";
 #endif
         public static string ProjectPath
         {
