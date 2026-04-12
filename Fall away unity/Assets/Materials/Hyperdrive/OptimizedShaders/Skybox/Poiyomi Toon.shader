@@ -399,7 +399,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/83e39e6f0587747ce96501e5de229fa6"
 				ZFail [_StencilZFailOp]
 			}
 			ZWrite [_ZWrite]
-			Cull Front
+			Cull Back
 			ZTest [_ZTest]
 			ColorMask RGBA
 			Offset [_OffsetFactor], [_OffsetUnits]
@@ -3234,7 +3234,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/83e39e6f0587747ce96501e5de229fa6"
 				#endif
 				for (uint glitterLayer = 0; glitterLayer < uint(2.0); glitterLayer++)
 				{
-					float2 st = (poiMesh.uv[0.0] + float4(0,0,0,0).xy * _Time.x) * 300.0;
+					float2 st = (poiMesh.uv[0.0] + float4(0,2,0,0).xy * _Time.x) * 300.0;
 					float2 i_st = floor(st);
 					float2 f_st = frac(st);
 					float m_dist = 10.;  // minimun distance
@@ -4034,7 +4034,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/83e39e6f0587747ce96501e5de229fa6"
 				ZFail [_StencilZFailOp]
 			}
 			ZWrite Off
-			Cull Front
+			Cull Back
 			ZTest [_ZTest]
 			ColorMask RGBA
 			Offset [_OffsetFactor], [_OffsetUnits]
@@ -6643,7 +6643,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/83e39e6f0587747ce96501e5de229fa6"
 				#endif
 				for (uint glitterLayer = 0; glitterLayer < uint(2.0); glitterLayer++)
 				{
-					float2 st = (poiMesh.uv[0.0] + float4(0,0,0,0).xy * _Time.x) * 300.0;
+					float2 st = (poiMesh.uv[0.0] + float4(0,2,0,0).xy * _Time.x) * 300.0;
 					float2 i_st = floor(st);
 					float2 f_st = frac(st);
 					float m_dist = 10.;  // minimun distance
@@ -7447,7 +7447,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/83e39e6f0587747ce96501e5de229fa6"
 				ZFail [_StencilZFailOp]
 			}
 			ZWrite [_ZWrite]
-			Cull Front
+			Cull Back
 			AlphaToMask Off
 			ZTest [_ZTest]
 			ColorMask RGBA

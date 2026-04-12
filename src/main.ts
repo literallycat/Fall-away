@@ -1,4 +1,4 @@
-import * as rm from "../remapper/src/mod.ts"
+import * as rm from "https://deno.land/x/remapper@4.1.0/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
 import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
@@ -21,7 +21,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("Vivify")
 
 
-    rm.environmentRemoval(map,["Environment"])
+    rm.environmentRemoval(map,["Environment","GameCore"])
     rm.assignObjectPrefab(map, {
             saber: {
                 type: 'Both',
@@ -78,7 +78,5 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/Users/un/Downloads/FALLAWAY'
+    outputDirectory: '../OutputMaps'
 })
-
-

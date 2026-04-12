@@ -2883,7 +2883,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				shadowAttenuation = lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
 				#ifdef POI_PASS_ADD
-				if (3.0 == 3)
+				if (0.0 == 3)
 				{
 					#if defined(POINT) || defined(SPOT)
 					#if defined(_LIGHTINGMODE_REALISTIC) || defined(_LIGHTINGMODE_CLOTH) || defined(_LIGHTINGMODE_WRAPPED)
@@ -2893,13 +2893,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					#endif
 					#endif
 				}
-				if (3.0 == 0)
+				if (0.0 == 0)
 				{
 					poiLight.rampedLightMap = max(0, poiLight.nDotL);
 					poiLight.finalLighting = poiLight.directColor * attenuation * max(0, poiLight.nDotL) * poiLight.detailShadow * shadowAttenuation;
 					return;
 				}
-				if (3.0 == 1)
+				if (0.0 == 1)
 				{
 					#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 					float passthrough = 0;
@@ -2937,7 +2937,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				indirectLight.diffuse = max(indirectLight.diffuse + 0.0, 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, 0.0);
+				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, 0.1);
 				#ifdef UNITY_PASS_FORWARDBASE
 				if (_UdonLightVolumeEnabled)
 				{
@@ -2947,10 +2947,10 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					float3 L1b = 0;
 					#ifdef LIGHTMAP_ON
 					LightVolumeAdditiveSH(poiMesh.worldPos, L0, L1r, L1g, L1b);
-					poiLight.finalLighting += clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.0, 1.0);
+					poiLight.finalLighting += clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.1, 1.0);
 					#else
 					LightVolumeSH(poiMesh.worldPos, L0, L1r, L1g, L1b);
-					poiLight.finalLighting = clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.0, 1.0);
+					poiLight.finalLighting = clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.1, 1.0);
 					#endif
 				}
 				#endif
@@ -2961,7 +2961,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					float3 vertexLighting = float3(0, 0, 0);
 					for (int index = 0; index < 4; index++)
 					{
-						float lightingMode = 3.0;
+						float lightingMode = 0.0;
 						if (lightingMode == 3)
 						{
 							#if defined(_LIGHTINGMODE_REALISTIC)
@@ -3741,12 +3741,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if (0.0 == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, 0.0);
+					poiLight.directColor = max(poiLight.directColor, 0.1);
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.1 * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.1 * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), 0.0);
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), 0.0);
@@ -6245,7 +6245,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				shadowAttenuation = lerp(1, poiLight.additiveShadow, poiLight.attenuationStrength);
 				#endif
 				#ifdef POI_PASS_ADD
-				if (3.0 == 3)
+				if (0.0 == 3)
 				{
 					#if defined(POINT) || defined(SPOT)
 					#if defined(_LIGHTINGMODE_REALISTIC) || defined(_LIGHTINGMODE_CLOTH) || defined(_LIGHTINGMODE_WRAPPED)
@@ -6255,13 +6255,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					#endif
 					#endif
 				}
-				if (3.0 == 0)
+				if (0.0 == 0)
 				{
 					poiLight.rampedLightMap = max(0, poiLight.nDotL);
 					poiLight.finalLighting = poiLight.directColor * attenuation * max(0, poiLight.nDotL) * poiLight.detailShadow * shadowAttenuation;
 					return;
 				}
-				if (3.0 == 1)
+				if (0.0 == 1)
 				{
 					#if defined(POINT_COOKIE) || defined(DIRECTIONAL_COOKIE)
 					float passthrough = 0;
@@ -6299,7 +6299,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				indirectLight.diffuse = max(indirectLight.diffuse + 0.0, 0);
 				#endif
 				poiLight.rampedLightMap = poiLight.nDotLSaturated;
-				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, 0.0);
+				poiLight.finalLighting = max(POI_BRDF_PBS(1, 0, 0, 0, poiMesh.normals[1], poiCam.viewDir, light, indirectLight).xyz, 0.1);
 				#ifdef UNITY_PASS_FORWARDBASE
 				if (_UdonLightVolumeEnabled)
 				{
@@ -6309,10 +6309,10 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					float3 L1b = 0;
 					#ifdef LIGHTMAP_ON
 					LightVolumeAdditiveSH(poiMesh.worldPos, L0, L1r, L1g, L1b);
-					poiLight.finalLighting += clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.0, 1.0);
+					poiLight.finalLighting += clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.1, 1.0);
 					#else
 					LightVolumeSH(poiMesh.worldPos, L0, L1r, L1g, L1b);
-					poiLight.finalLighting = clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.0, 1.0);
+					poiLight.finalLighting = clamp(LightVolumeEvaluate(poiMesh.normals[1], L0, L1r, L1g, L1b), 0.1, 1.0);
 					#endif
 				}
 				#endif
@@ -6323,7 +6323,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 					float3 vertexLighting = float3(0, 0, 0);
 					for (int index = 0; index < 4; index++)
 					{
-						float lightingMode = 3.0;
+						float lightingMode = 0.0;
 						if (lightingMode == 3)
 						{
 							#if defined(_LIGHTINGMODE_REALISTIC)
@@ -7103,12 +7103,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/af94dfe35432d46cea02c86793c77ac2"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if (0.0 == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, 0.0);
+					poiLight.directColor = max(poiLight.directColor, 0.1);
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.1 * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.1 * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), 0.0);
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), 0.0);

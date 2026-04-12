@@ -56,10 +56,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 54cb0ed60202c42ccb726165ace294a8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _UzumoreMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - GeometryShader_Enabled: 1
     - Instancing: 0
@@ -2318,7 +2314,7 @@ Material:
     - _VertexManipulationHeightMaskChannel: 0
     - _VertexManipulationHeightMaskUV: 0
     - _VertexManipulationsEnabled: 0
-    - _VertexRoundingDivision: 0.02
+    - _VertexRoundingDivision: 0.5
     - _VertexRoundingEnabled: 0
     - _VertexRoundingMaskChannel: 0
     - _VertexRoundingRangeBand: 0
@@ -2331,14 +2327,14 @@ Material:
     - _VertexSphereMaskChannel: 0
     - _VertexSphereMode: 0
     - _VertexSphereRadius: 1
-    - _VertexTornadoBaseHeight: 0
+    - _VertexTornadoBaseHeight: -1
     - _VertexTornadoFunnelShape: 1
     - _VertexTornadoIntensity: 100
     - _VertexTornadoMaskChannel: 0
-    - _VertexTornadoMode: 0
+    - _VertexTornadoMode: 1
     - _VertexTornadoRadius: 0.2
     - _VertexTornadoSpeed: 5
-    - _VertexTornadoTopHeight: 1
+    - _VertexTornadoTopHeight: 3.77
     - _VertexTornadoVerticalPull: 0
     - _VertexWindDetailAmplitude: 0.05
     - _VertexWindDetailFrequency: 5
@@ -2698,7 +2694,7 @@ Material:
     - m_start_voronoi: 0
     - m_start_voronoiRandom: 0
     - m_thirdpartyCategory: 0
-    - m_vertexCategory: 0
+    - m_vertexCategory: 1
     - s_end_ALAlpha: 0
     - s_end_ALDecalAudioModsOptions: 0
     - s_end_ALDecalBand: 0
@@ -3138,7 +3134,7 @@ Material:
     - s_start_VertexManipulationHeight: 1
     - s_start_VertexScale: 0
     - s_start_VertexSphereMode: 0
-    - s_start_VertexTornadoMode: 0
+    - s_start_VertexTornadoMode: 1
     - s_start_VertexWind: 0
     - s_start_WorldTranslation: 0
     - s_start_brdfadvanced: 0
