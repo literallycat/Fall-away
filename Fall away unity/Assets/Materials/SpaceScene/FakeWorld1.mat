@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FakeWorld1
-  m_Shader: {fileID: 4800000, guid: d4954152fb2cef558aee075e83422f12, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6b00a6aecd3e45a419b3b85b975aac2c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -430,7 +430,7 @@ Material:
     - _CubeMapWorldNormalsStrength: 1
     - _CubemapBlendType: 0
     - _Cull: 2
-    - _CurvFix: 1
+    - _CurvFix: 0
     - _CurvatureU: 0
     - _CurvatureV: 0
     - _CustomColors: 0
@@ -1256,10 +1256,10 @@ Material:
     - _GreenTextureStochastic: 0
     - _GreenTextureUV: 0
     - _HeightMapUV: 0
-    - _HeightOffset: 0
-    - _HeightStepsMax: 128
-    - _HeightStepsMin: 10
-    - _HeightStrength: 0.005
+    - _HeightOffset: 0.475
+    - _HeightStepsMax: 2
+    - _HeightStepsMin: 2
+    - _HeightStrength: 0
     - _HeightmaskChannel: 0
     - _HeightmaskInvert: 0
     - _HeightmaskUV: 0
@@ -1317,7 +1317,7 @@ Material:
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
-    - _LightingAdditiveType: 3
+    - _LightingAdditiveType: 0
     - _LightingCap: 1
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
@@ -1337,7 +1337,7 @@ Material:
     - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0
+    - _LightingMinLightBrightness: 0.1
     - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 6
     - _LightingMonochromatic: 0
@@ -1745,8 +1745,8 @@ Material:
     - _Parallax: 0.02
     - _ParallaxAnisotropic: 1
     - _ParallaxAnisotropyScale: 1
-    - _ParallaxBinarySteps: 8
-    - _ParallaxConeRatio: 1
+    - _ParallaxBinarySteps: 16
+    - _ParallaxConeRatio: 2
     - _ParallaxInternalBlendMode: 0
     - _ParallaxInternalHeightFromAlpha: 0
     - _ParallaxInternalHeightmapMode: 0
@@ -1766,7 +1766,7 @@ Material:
     - _ParallaxInternalMinDepth: 0
     - _ParallaxInternalMinFade: 1
     - _ParallaxInternalSurfaceBlendMode: 8
-    - _ParallaxMipBias: 0
+    - _ParallaxMipBias: -3
     - _ParallaxRelaxedCone: 1
     - _ParallaxUV: 0
     - _PathALAutoCorrelator: 0
@@ -2296,11 +2296,11 @@ Material:
     - _VertexBarrelWidth: 0.2
     - _VertexBasicsMaskChannel: 0
     - _VertexGlitchDensity: 10
-    - _VertexGlitchFrequency: 1
+    - _VertexGlitchFrequency: 5
     - _VertexGlitchMapPanSpeed: 10
     - _VertexGlitchMirror: 0
     - _VertexGlitchMirrorEnable: 0
-    - _VertexGlitchStrength: 1
+    - _VertexGlitchStrength: 2.62
     - _VertexGlitchThreshold: 1
     - _VertexGlitchingAudioLinkBand: 0
     - _VertexGlitchingAudioLinkEnabled: 0
@@ -2346,9 +2346,9 @@ Material:
     - _VertexTornadoIntensity: 100
     - _VertexTornadoMaskChannel: 0
     - _VertexTornadoMode: 0
-    - _VertexTornadoRadius: 0.2
+    - _VertexTornadoRadius: 102.2
     - _VertexTornadoSpeed: 5
-    - _VertexTornadoTopHeight: 1
+    - _VertexTornadoTopHeight: 0
     - _VertexTornadoVerticalPull: 0
     - _VertexWindDetailAmplitude: 0.05
     - _VertexWindDetailFrequency: 5
@@ -2561,13 +2561,13 @@ Material:
     - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
     - m_start_Aniso: 0
     - m_start_BeatsaberBloomFog: 0
-    - m_start_BeatsaberOptions: 1
+    - m_start_BeatsaberOptions: 0
     - m_start_BlackLightMasking: 0
     - m_start_BonusSliders: 0
     - m_start_CRT: 0
@@ -2630,12 +2630,12 @@ Material:
     - m_start_OutlineStencilPassFrontOptions: 0
     - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiGlobalCategory: 0
+    - m_start_PoiGlobalCategory: 1
     - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 0
-    - m_start_PoiShading: 1
-    - m_start_PoiUVCategory: 0
-    - m_start_RGBMask: 1
+    - m_start_PoiShading: 0
+    - m_start_PoiUVCategory: 1
+    - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
     - m_start_SphericalDissolve: 0
@@ -3125,7 +3125,7 @@ Material:
     - s_start_ScrollingEmission1: 0
     - s_start_ScrollingEmission2: 0
     - s_start_ScrollingEmission3: 0
-    - s_start_ShadingAddPass: 0
+    - s_start_ShadingAddPass: 1
     - s_start_ShadingGlobalMask: 0
     - s_start_StylizedReflectionLilEnviroReflections: 1
     - s_start_StylizedReflectionLilSpecular: 1
@@ -3144,7 +3144,7 @@ Material:
     - s_start_VertexBarrelMode: 0
     - s_start_VertexColors: 0
     - s_start_VertexGlitchMirror: 0
-    - s_start_VertexGlitchTexture: 1
+    - s_start_VertexGlitchTexture: 0
     - s_start_VertexManipulationHeight: 1
     - s_start_VertexScale: 0
     - s_start_VertexSphereMode: 0
@@ -3168,7 +3168,7 @@ Material:
     - s_start_matcap3ApplyToAlpha: 0
     - s_start_matcapApplyToAlpha: 0
     - s_start_outline_al_color: 0
-    - s_start_parallaxAdvanced: 0
+    - s_start_parallaxAdvanced: 1
     - s_start_vertexRounding: 0
     - s_start_vertexRoundingAL: 0
     - shader_is_using_thry_editor: 0

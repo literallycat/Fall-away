@@ -22,18 +22,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("AudioLink")
 
 
-    rm.environmentRemoval(map, [
-        'WaterRainRipples',
-        'RectangleFakeGlow',
-        'Mirror',
-        'Waterfall',
-        'Mountains',
-        'DirectionalLight',
-        'Clouds',
-        'Rail',
-        'Rain',
-        'Environment'
-    ])
+    rm.environmentRemoval(map,["Environment","GameCore"])
     rm.assignObjectPrefab(map, {
             saber: {
                 type: 'Both',
@@ -80,7 +69,5 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/home/cat/Downloads/FALLAWAY'
+    outputDirectory: '../OutputMaps'
 })
-
-
