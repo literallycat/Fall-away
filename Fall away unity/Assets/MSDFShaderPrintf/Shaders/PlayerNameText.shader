@@ -63,7 +63,7 @@ Shader "MSDFShaderUn/PlayerNameText"
             #define PIXELFONT_COLS 32
             fixed4 frag (v2f i) : SV_Target
             {
-                int TextW = 32;
+                int TextW = 32; // if you have a user longer than 32 characters thats your fault my code breaks
                 int TextH = 1;
 				float2 inuv = i.uv ;
 				inuv.y = 1.0 - inuv.y;

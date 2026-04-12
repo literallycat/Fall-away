@@ -10,8 +10,8 @@ namespace MSDFShaderPrintf
     {
 
         public string inputPath;
-        public string outputPath;
-        public string text = "Assets/";
+        public string outputPath = "Assets/";
+        public string text = "";
         [MenuItem("Window/TextGen")]
         public static void ShowWindow()
         {
@@ -55,7 +55,7 @@ namespace MSDFShaderPrintf
 		
             int w = maxlinelen + 1;
             int h = y + 1;
-            Debug.Log(String.Join(", ", w, h));
+            //Debug.Log(String.Join(", ", w, h));
 				
             int [] fa = new int[w*h+2];
             fa[0] = w;

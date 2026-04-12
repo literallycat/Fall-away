@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FakeWorld1
-  m_Shader: {fileID: 4800000, guid: 6b00a6aecd3e45a419b3b85b975aac2c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 546da9d524d4258068ac6ec790cbba53, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

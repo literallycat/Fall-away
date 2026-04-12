@@ -97,10 +97,8 @@ namespace VivifyTemplate.Exporter.Scripts.Editor.QuestSupport
                 var androidPlaybackEngine = Path.Combine(editorDirectory, "Data", "PlaybackEngines", "AndroidPlayer");
 #elif UNITY_EDITOR_OSX
                 var androidPlaybackEngine = Path.Combine(editorDirectory, "PlaybackEngines", "AndroidPlayer");
-#else
-                var androidPlaybackEngine = Path.Combine(editorDirectory, "PlaybackEngines", "AndroidPlayer");
 #endif
-
+                var androidPlaybackEngine = Path.Combine(editorDirectory, "PlaybackEngines", "AndroidPlayer");
                 if (!Directory.Exists(androidPlaybackEngine))
                 {
                     EditorGUILayout.LabelField(
@@ -397,9 +395,8 @@ namespace VivifyTemplate.Exporter.Scripts.Editor.QuestSupport
             bool isUnityEditorInstalled = File.Exists(QuestPreferences.UnityEditor);
 #elif UNITY_EDITOR_OSX
             bool isUnityEditorInstalled = File.Exists(Path.Combine(QuestPreferences.UnityEditor, "Contents", "MacOS", "Unity"));
-#else
-            bool isUnityEditorInstalled = true;
 #endif
+            bool isUnityEditorInstalled = true;
 
             var openXRPackageDirectory = GetOpenXRPackageDirectory();
             return Directory.Exists(QuestPreferences.ProjectPath) &&

@@ -1,9 +1,9 @@
 import * as rm from "https://deno.land/x/remapper@4.2.1/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
-import * as cache from '../RM_Cache.json' with { type: 'json' }
+//import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
 
-console.log("GIVE IT UP FOR RUN "+ (cache.default.runs +1))
+//console.log("GIVE IT UP FOR RUN "+ (cache.default.runs +1))
 
 const pipeline = await rm.createPipeline({ bundleInfo })
 
@@ -24,16 +24,16 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
     rm.environmentRemoval(map,["Environment","GameCore"])
     rm.assignObjectPrefab(map, {
-            saber: {
-                type: 'Both',
-                asset: prefabs["rsih saber"].path,
-                trailAsset: materials.rsih_saber_trail.path,
-                trailTopPos: [0, 0, 1.1],
-                trailBottomPos: [0, 0, 0.1],
-                trailDuration: 0.2,
-                trailSamplingFrequency: 100,
-            },
-        }) 
+        saber: {
+            type: 'Both',
+            asset: prefabs["rsih saber"].path,
+            trailAsset: materials.rsih_saber_trail.path,
+            trailTopPos: [0, 0, 1.1],
+            trailBottomPos: [0, 0, 0.1],
+            trailDuration: 0.2,
+            trailSamplingFrequency: 100,
+        },
+    })
 
 
     // create ui stuff

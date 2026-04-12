@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: User
-  m_Shader: {fileID: 4800000, guid: 330ba52724eb5484b902ddce61beba8a, type: 3}
+  m_Shader: {fileID: 4800000, guid: f7ce805e1f9d940a4a005c7511bcf92b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,6 +55,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextTex:
+        m_Texture: {fileID: 2800000, guid: 8bf1ef14a6274be4ab0df8c6573e18c8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _UdonMSDFPrintf:
         m_Texture: {fileID: 18700000, guid: 9433d0b841c4d4d3a820c7f0157fad98, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -81,4 +85,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FGColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FGColor: {r: 1, g: 1, b: 1, a: 1}
