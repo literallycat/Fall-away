@@ -3,13 +3,21 @@ Shader "Custom/Standard"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _SRef("Stencil Ref", Int) = 1
+        [Enum(UnityEngine.Rendering.CompareFunction)] _SComp("Stencil Comp", Int) = 8
+        [Enum(UnityEngine.Rendering.StencilOp)] _SOp("Stencil Op", Int) = 2
     }
     SubShader
     {
         Tags {
             "RenderType"="Opaque"
         }
-
+        Stencil
+        {
+            Ref [_SRef]
+            Comp [_SComp]
+            Pass [_SOp]
+        }
         Pass
         {
             CGPROGRAM

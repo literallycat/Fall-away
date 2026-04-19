@@ -83,6 +83,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 0
+    - _SComp: 6
+    - _SOp: 0
+    - _SRef: 136
     - _Scale: 0
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0

@@ -2130,7 +2130,7 @@ Material:
     - _StencilBackFailOp: 0
     - _StencilBackPassOp: 0
     - _StencilBackZFailOp: 0
-    - _StencilCompareFunction: 8
+    - _StencilCompareFunction: 6
     - _StencilFailOp: 0
     - _StencilFrontCompareFunction: 8
     - _StencilFrontFailOp: 0
@@ -2138,7 +2138,7 @@ Material:
     - _StencilFrontZFailOp: 0
     - _StencilPassOp: 0
     - _StencilReadMask: 255
-    - _StencilRef: 0
+    - _StencilRef: 136
     - _StencilType: 0
     - _StencilWriteMask: 255
     - _StencilZFailOp: 0
@@ -2560,7 +2560,7 @@ Material:
     - m_lightingCategory: 0
     - m_mainCategory: 0
     - m_modifierCategory: 0
-    - m_renderingCategory: 0
+    - m_renderingCategory: 1
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
@@ -2641,7 +2641,7 @@ Material:
     - m_start_SphericalDissolve: 0
     - m_start_StencilPassBackOptions: 0
     - m_start_StencilPassFrontOptions: 0
-    - m_start_StencilPassOptions: 0
+    - m_start_StencilPassOptions: 1
     - m_start_Stochastic: 0
     - m_start_Text: 0
     - m_start_TextFPS: 0

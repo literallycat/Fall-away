@@ -2613,7 +2613,7 @@ Material:
     - _StencilFrontFailOp: 0
     - _StencilFrontPassOp: 0
     - _StencilFrontZFailOp: 0
-    - _StencilMask: 81
+    - _StencilMask: 136
     - _StencilPassOp: 0
     - _StencilReadMask: 255
     - _StencilRef: 1
