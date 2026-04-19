@@ -37,7 +37,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
 
     // create ui stuff
-    const _HUD = prefabs.hudenabled.instantiate(map,{ beat: Times.Space02, track: "HUDTrack"})
+    const _HUD = prefabs.hudenabled.instantiate(map,{ beat: Times.Space01, track: "HUDTrack"})
     rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", duration: 99999, animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
     // instantiations and destructionk
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)

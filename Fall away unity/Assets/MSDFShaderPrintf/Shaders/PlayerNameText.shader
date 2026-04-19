@@ -25,7 +25,7 @@ Shader "MSDFShaderUn/PlayerNameText"
 
             #include "UnityCG.cginc"
 			#include "Assets/MSDFShaderPrintf/MSDFShaderPrintf.cginc"
-            #include "Assets/AudioLink/Shaders/AudioLink.cginc"
+            #include "Packages/com.llealloo.audiolink/Runtime/Shaders/AudioLink.cginc"
 
 
 

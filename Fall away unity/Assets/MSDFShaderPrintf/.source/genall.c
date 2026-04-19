@@ -31,7 +31,7 @@ int main()
 //			sprintf( glyph, "%c", i );
 		if( i == 9 || i == 10 || i == 13 || i == 0 || i == 32 ) continue;
 //		printf( "%d (%c)\n", i, i );
-		snprintf( cmdline, sizeof(cmdline)-1, "msdfgen.exe -font AudioLinkConsole-Bold.ttf 0x%02x -translate 0.2 3.3 -size %d %d -scale 3.65 -range 1.6 -o .temp/m%03d.png -testrender .temp/g%03d.png %d %d", i, gw, gh, i, i, gw*16, gh*16 );
+		snprintf( cmdline, sizeof(cmdline)-1, "msdfgen.exe -font SixtyFour.ttf 0x%02x -translate 0.2 3.3 -size %d %d -scale 3.65 -range 1.6 -o .temp/m%03d.png -testrender .temp/g%03d.png %d %d", i, gw, gh, i, i, gw*16, gh*16 );
 		printf( "%s\n", cmdline );
 		int r = system( cmdline );
 		if( r == 0 )
