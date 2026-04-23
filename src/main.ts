@@ -21,7 +21,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("Vivify")
     map.require("AudioLink")
 
-
+    
     rm.environmentRemoval(map,["Environment","GameCore"])
     rm.assignObjectPrefab(map, {
         saber: {
@@ -46,12 +46,11 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     materials.static.blit(map,47,2)
 
     const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
-    Space01.destroyObject(Times.HyperDrive01)
-
     const HyperDrive01 = prefabs.hyperdrive01.instantiate(map)
-    HyperDrive01.destroyObject(Times.Space02)
-
     const Space02 = prefabs.space02.instantiate(map)
+
+    Space01.destroyObject(Times.HyperDrive01)
+    HyperDrive01.destroyObject(Times.Space02)
     Space02.destroyObject(Times.HyperDrive02)
 
     const HyperDrive02 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive02)

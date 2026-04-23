@@ -557,7 +557,43 @@ AnimationClip:
     path: FakeWorld (3)
     classID: 23
     script: {fileID: 0}
-  m_PPtrCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - time: 132.66667
+      value: {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: FakeWorld
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - time: 132.6
+      value: {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: FakeWorld (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - time: 132.6
+      value: {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: FakeWorld (3)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - time: 132.6
+      value: {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: FakeWorld (1)
+    classID: 23
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -649,7 +685,43 @@ AnimationClip:
       typeID: 23
       customType: 22
       isPPtrCurve: 0
-    pptrCurveMapping: []
+    - serializedVersion: 2
+      path: 3151790506
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2885010342
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3002004199
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2161676389
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 23
+      customType: 21
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    - {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    - {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
+    - {fileID: 2100000, guid: 1364b3cc1f786976292a597510c85d52, type: 2}
+    - {fileID: 2100000, guid: e12702415b11c3e43aa9688757966dc3, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

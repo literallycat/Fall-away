@@ -90,9 +90,9 @@ Material:
     - _Power: 4
     - _ResX: 25
     - _ResY: 25
-    - _SComp: 8
-    - _SOp: 2
-    - _SRef: 1
+    - _SComp: 6
+    - _SOp: 0
+    - _SRef: 200
     - _Scale: 4
     - _ScaleWithZoom: 0
     - _Smoothness: 0.5
