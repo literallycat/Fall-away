@@ -69,5 +69,5 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '/home/cat/BSManager/BSInstances/1.40.8/Beat Saber_Data/CustomWIPLevels/FALLAWAY/'
+    outputDirectory: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Beat Saber\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY\\"
 })
