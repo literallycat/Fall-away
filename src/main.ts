@@ -49,14 +49,15 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     const HyperDrive01 = prefabs.hyperdrive01.instantiate(map)
     const Space02 = prefabs.space02.instantiate(map)
     const HyperDrive02 = prefabs.hyperdrive02.instantiate(map)
-
+    const earthclose = prefabs.earthclosing.instantiate(map)
+    prefabs.endhouse.instantiate(map)
     Space01.destroyObject(Times.HyperDrive01)
     HyperDrive01.destroyObject(Times.Space02)
     Space02.destroyObject(Times.HyperDrive02)
 
     HyperDrive02.destroyObject(Times.EarthClosing)
 
-    prefabs.earthclosing.instantiate(map,Times.EarthClosing)
+    earthclose.destroyObject(579)
 
 }
 
