@@ -8,16 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: table
-  m_Shader: {fileID: 4800000, guid: a6b2c57c33e6cb1c2858ac23ea812d76, type: 3}
+  m_Shader: {fileID: 4800000, guid: 49b9a6078e1ab055ba22869d23c9bd4f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    AllLockedGUIDS: 485b927e21ba22f74bda454d59597c37
-    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT POIBS_ENABLE VIGNETTE_MASKED _LIGHTINGMODE_FLAT
-      _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+    AllLockedGUIDS: 6f825b73b48a4793b9d11ae682db88ff,485b927e21ba22f74bda454d59597c37
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: 104003ab15a9f7a47b6ef0597225e771
     RenderType: Opaque
@@ -55,10 +53,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7228283defdbb4ecfa2801c3d57a5963, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _UzumoreMask:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -1333,9 +1327,9 @@ Material:
     - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0
+    - _LightingMinLightBrightness: 0.142
     - _LightingMirrorVertexLightingEnabled: 1
-    - _LightingMode: 5
+    - _LightingMode: 6
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
