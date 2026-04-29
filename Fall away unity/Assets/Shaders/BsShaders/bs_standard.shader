@@ -27,10 +27,20 @@ Shader "BeatSaber/Standard"
         [Gamma]_Metallic ("Metallic", Range(0,1)) = 0
         _Smoothness ("Smoothness", Range(0,1)) = 0.5
 		[Enum(UnityEngine.Rendering.CullMode)] _Culling ("Cull Mode", Int) = 2
+		_SRef("Stencil Ref", Int) = 1
+        [Enum(UnityEngine.Rendering.CompareFunction)] _SComp("Stencil Comp", Int) = 8
+        [Enum(UnityEngine.Rendering.StencilOp)] _SOp("Stencil Op", Int) = 2
+
 
     }
     SubShader
     {
+        Stencil
+            {
+                Ref [_SRef]
+                Comp [_SComp]
+                Pass [_SOp]
+            }
         Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
         Cull [_Culling]
         GrabPass { }

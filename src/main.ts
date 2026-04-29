@@ -21,7 +21,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("Vivify")
     map.require("AudioLink")
 
-
+    
     rm.environmentRemoval(map,["Environment","GameCore"])
     rm.assignObjectPrefab(map, {
         saber: {
@@ -46,18 +46,18 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     materials.static.blit(map,47,2)
 
     const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
+    const HyperDrive01 = prefabs.hyperdrive01.instantiate(map)
+    const Space02 = prefabs.space02.instantiate(map)
+    const HyperDrive02 = prefabs.hyperdrive02.instantiate(map)
+    const earthclose = prefabs.finalscene.instantiate(map)
+    prefabs.endhouse.instantiate(map)
     Space01.destroyObject(Times.HyperDrive01)
-
-    const HyperDrive01 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive01)
     HyperDrive01.destroyObject(Times.Space02)
-
-    const Space02 = prefabs.space02.instantiate(map,Times.Space02)
     Space02.destroyObject(Times.HyperDrive02)
 
-    const HyperDrive02 = prefabs.hyperdrive01.instantiate(map,Times.HyperDrive02)
     HyperDrive02.destroyObject(Times.EarthClosing)
 
-    prefabs.earthclosing.instantiate(map,Times.EarthClosing)
+    earthclose.destroyObject(579)
 
 }
 
@@ -69,5 +69,5 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: '../OutputMaps'
+    outputDirectory: "C:\\Users\\cat\\BSManager\\BSInstances\\1.40.8\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY"
 })

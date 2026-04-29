@@ -7,11 +7,20 @@ Shader "BeatSaber/Unlit Glow"
         _Color ("Color", Color) = (1,1,1,1)
         _Tex ("Texture", 2D) = "white" {}
         _Glow ("Glow", Range (0, 1)) = 0
+        _SRef("Stencil Ref", Int) = 1
+        [Enum(UnityEngine.Rendering.CompareFunction)] _SComp("Stencil Comp", Int) = 8
+        [Enum(UnityEngine.Rendering.StencilOp)] _SOp("Stencil Op", Int) = 2
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
+        Stencil
+        {
+            Ref [_SRef]
+            Comp [_SComp]
+            Pass [_SOp]
+        }
 
         Pass
         {
