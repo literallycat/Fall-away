@@ -14961,7 +14961,6 @@
     }
   },
   "prefabs": {
-    "earthclosing": "assets/prefabs/earthclosing.prefab",
     "endhouse": "assets/prefabs/endhouse.prefab",
     "finalscene": "assets/prefabs/finalscene.prefab",
     "hudenabled": "assets/prefabs/hudenabled.prefab",
@@ -14976,12 +14975,10 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
-    "C:/Users/cat/Documents/Fall-away/bundleWindows2021.vivify",
-    "C:/Users/cat/Documents/Fall-away/bundleWindows2019.vivify"
+    "C:/Users/cat/Documents/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 4135257702,
-    "_windows2019": 1184842275
+    "_windows2021": 2383765666
   },
-  "isCompressed": true
+  "isCompressed": false
 }

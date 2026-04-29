@@ -49,7 +49,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     const HyperDrive01 = prefabs.hyperdrive01.instantiate(map)
     const Space02 = prefabs.space02.instantiate(map)
     const HyperDrive02 = prefabs.hyperdrive02.instantiate(map)
-    const earthclose = prefabs.earthclosing.instantiate(map)
+    const earthclose = prefabs.finalscene.instantiate(map)
     prefabs.endhouse.instantiate(map)
     Space01.destroyObject(Times.HyperDrive01)
     HyperDrive01.destroyObject(Times.Space02)
@@ -69,5 +69,5 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Beat Saber\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY\\"
+    outputDirectory: "C:\\Users\\cat\\BSManager\\BSInstances\\1.40.8\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY"
 })
