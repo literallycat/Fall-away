@@ -1,0 +1,63 @@
+{
+  "_version" : "2.1.0",
+  "_songName" : "Fall Away",
+  "_songSubName" : "",
+  "_songAuthorName" : "Zeds Dead",
+  "_levelAuthorName" : "Cat X Pixy",
+  "_beatsPerMinute" : 138,
+  "_songTimeOffset" : 0,
+  "_shuffle" : 0,
+  "_shufflePeriod" : 0,
+  "_previewStartTime" : 12,
+  "_previewDuration" : 10,
+  "_songFilename" : "fallaway.ogg",
+  "_coverImageFilename" : "ab67616d0000b27320e96424c1fc8b1b1272f3e4.jpg",
+  "_environmentName" : "DefaultEnvironment",
+  "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
+  "_environmentNames" : [
+    "DefaultEnvironment"
+  ],
+  "_colorSchemes" : [
+  ],
+  "_difficultyBeatmapSets" : [
+    {
+      "_beatmapCharacteristicName" : "Standard",
+      "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "Expert",
+          "_difficultyRank" : 7,
+          "_beatmapFilename" : "ExpertStandard.dat",
+          "_noteJumpMovementSpeed" : 16,
+          "_noteJumpStartBeatOffset" : -0.1,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_colorLeft" : {"r":1,"g":0.936,"b":0.477},
+            "_colorRight" : {"r":0.521,"g":0.854,"b":1}
+          }
+        },
+        {
+          "_difficulty" : "ExpertPlus",
+          "_difficultyRank" : 9,
+          "_beatmapFilename" : "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed" : 16,
+          "_noteJumpStartBeatOffset" : -0.1,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_colorLeft" : {"r":1,"g":0.936,"b":0.477},
+            "_colorRight" : {"r":0.521,"g":0.854,"b":1}
+          }
+        }
+      ]
+    }
+  ],
+  "_customData" : {
+    "_editors" : {
+      "_lastEditedBy" : "ChroMapper",
+      "ChroMapper" : {
+        "version" : "0.13.892"
+      }
+    }
+  }
+}

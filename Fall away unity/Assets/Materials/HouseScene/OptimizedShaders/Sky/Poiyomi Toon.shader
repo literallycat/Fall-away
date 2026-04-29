@@ -3494,12 +3494,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/d656a5fe6113171499ef5e2413032a5e"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if (0.0 == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, 0.0);
+					poiLight.directColor = max(poiLight.directColor, 0.142);
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.142 * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.142 * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), 0.0);
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), 0.0);
@@ -6595,12 +6595,12 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/d656a5fe6113171499ef5e2413032a5e"
 				poiLight.indirectColor = max(poiLight.indirectColor, 0.0001);
 				if (0.0 == 3)
 				{
-					poiLight.directColor = max(poiLight.directColor, 0.0);
+					poiLight.directColor = max(poiLight.directColor, 0.142);
 				}
 				else
 				{
-					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.directColor)))));
-					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.0 * rcp(calculateluminance(poiLight.indirectColor)))));
+					poiLight.directColor = max(poiLight.directColor, poiLight.directColor * min(10000, (0.142 * rcp(calculateluminance(poiLight.directColor)))));
+					poiLight.indirectColor = max(poiLight.indirectColor, poiLight.indirectColor * min(10000, (0.142 * rcp(calculateluminance(poiLight.indirectColor)))));
 				}
 				poiLight.directColor = lerp(poiLight.directColor, dot(poiLight.directColor, float3(0.299, 0.587, 0.114)), 0.0);
 				poiLight.indirectColor = lerp(poiLight.indirectColor, dot(poiLight.indirectColor, float3(0.299, 0.587, 0.114)), 0.0);

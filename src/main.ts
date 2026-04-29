@@ -11,7 +11,7 @@ const bundle = rm.loadBundle(bundleInfo)
 const materials = bundle.materials
 const prefabs = bundle.prefabs
 
-
+//deno run --allow-all src/main.ts
 // ----------- { SCRIPT } -----------
 
 
@@ -28,8 +28,8 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
             type: 'Both',
             asset: prefabs["rsih saber"].path,
             trailAsset: materials.rsih_saber_trail.path,
-            trailTopPos: [0, 0, 1.1],
-            trailBottomPos: [0, 0, 0.1],
+            trailTopPos: [0, 0, -1],
+            trailBottomPos: [0, 0, -1],
             trailDuration: 0.2,
             trailSamplingFrequency: 100,
         },
