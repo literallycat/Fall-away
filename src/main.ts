@@ -20,6 +20,7 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("Chroma")
     map.require("Vivify")
     map.require("AudioLink")
+   
 
     
     rm.environmentRemoval(map,["Environment","GameCore"])

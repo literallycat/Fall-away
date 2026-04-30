@@ -54,6 +54,13 @@
   ],
   "_customData" : {
     "_editors" : {
+      "_settings": {
+        "_playerOptions":{
+          "_leftHanded": true,
+          "_hideNoteSpawnEffect": true,
+          "_noTextsAndHuds": true
+        }
+      },
       "_lastEditedBy" : "ChroMapper",
       "ChroMapper" : {
         "version" : "0.13.892"

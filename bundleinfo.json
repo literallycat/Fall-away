@@ -14975,10 +14975,12 @@
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
+    "C:/Users/cat/Documents/Fall-away/bundleWindows2019.vivify",
     "C:/Users/cat/Documents/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 2383765666
+    "_windows2019": 3604846851,
+    "_windows2021": 790673049
   },
   "isCompressed": true
 }

@@ -299,7 +299,7 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: a74d7dad1b9a845648270b92155457ae, type: 2}
-    - time: 76.98333
+    - time: 76.95
       value: {fileID: 2100000, guid: 42093e3dde170bd07af93def95173591, type: 2}
     attribute: m_Materials.Array.data[1]
     path: Particle System
@@ -308,7 +308,7 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: a2f6fd3dfe8ea578a8d5479159510676, type: 2}
-    - time: 76.98333
+    - time: 76.95
       value: {fileID: 2100000, guid: 1ae89adb97a41478b977cda3bb270ad9, type: 2}
     attribute: m_Materials.Array.data[0]
     path: f (1)
@@ -317,7 +317,7 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 2100000, guid: e8f7fd2b99d288a14abd56eaa813ca44, type: 2}
-    - time: 76.98333
+    - time: 76.95
       value: {fileID: 2100000, guid: 42093e3dde170bd07af93def95173591, type: 2}
     attribute: m_Materials.Array.data[0]
     path: Particle System (1)
