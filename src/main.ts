@@ -2,6 +2,9 @@ import * as rm from "https://deno.land/x/remapper@4.2.1/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
 //import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
+import {
+    SetRenderingSettings
+} from "../remapper/src/internals/beatmap/object/custom_event/vivify/set_rendering_setting.ts";
 
 //console.log("GIVE IT UP FOR RUN "+ (cache.default.runs +1))
 
@@ -21,43 +24,81 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.require("Vivify")
     map.require("AudioLink")
    
+    // stop breaking shit rahhhh
 
     
+    map.difficultyInfo.settingsSetter = {
+        colors: {},
+        graphics: {
+            mainEffectGraphicsSettings: "On",
+            // maxShockwaveParticles: 0,
+            screenDisplacementEffectsEnabled: false
+        },
+        chroma: {
+            disableEnvironmentEnhancements: false
+        },
+        modifiers: {},
+        environments: {},
+        playerOptions: {
+            leftHanded: false,
+            noTextsAndHuds: true,
+            reduceDebris: true,
+            hideNoteSpawnEffect: true
+
+        }
+    }
+
     rm.environmentRemoval(map,["Environment","GameCore"])
+   // rm.assignObjectPrefab(map, {
+     //   saber: {
+       //     type: 'Both',
+          //  asset: prefabs["rsih saber"].path,
+            //trailAsset: materials.rsih_saber_trail.path,
+         // trailTopPos: [0, 0, -1],
+         //   trailBottomPos: [0, 0, -1],
+           // trailDuration: 0.2,
+          //  trailSamplingFrequency: 100,
+       // },
+   // })
     rm.assignObjectPrefab(map, {
         saber: {
             type: 'Both',
             asset: prefabs["rsih saber"].path,
             trailAsset: materials.rsih_saber_trail.path,
-            trailTopPos: [0, 0, -1],
-            trailBottomPos: [0, 0, -1],
+            trailTopPos: [0, 0, 1.1],
+            trailBottomPos: [0, 0, 0.1],
             trailDuration: 0.2,
             trailSamplingFrequency: 100,
         },
     })
-
+    rm.setRenderingSettings(map,{
+        beat: 0,
+        renderSettings: {
+            "ambientIntensity": 0
+        }
+    })
+    
 
     // create ui stuff
     const _HUD = prefabs.hudenabled.instantiate(map,{ beat: Times.Space01, track: "HUDTrack"})
     rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", duration: 99999, animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
+    materials.static.blit(map,47,2)
     // instantiations and destructionk
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)
-    fakeHouse.destroyObject(49)
-
-    materials.static.blit(map,47,2)
-
     const Space01 = prefabs.spacescene.instantiate(map,Times.Space01)
     const HyperDrive01 = prefabs.hyperdrive01.instantiate(map)
     const Space02 = prefabs.space02.instantiate(map)
     const HyperDrive02 = prefabs.hyperdrive02.instantiate(map)
     const earthclose = prefabs.finalscene.instantiate(map)
+    const dumbassText = prefabs.texthost.instantiate(map)
     prefabs.endhouse.instantiate(map)
+    
+    fakeHouse.destroyObject(49)
     Space01.destroyObject(Times.HyperDrive01)
     HyperDrive01.destroyObject(Times.Space02)
     Space02.destroyObject(Times.HyperDrive02)
-
     HyperDrive02.destroyObject(Times.EarthClosing)
-
+    dumbassText.destroyObject(397)
     earthclose.destroyObject(579)
 
 }
@@ -70,5 +111,9 @@ await Promise.all([
 
 // ----------- { OUTPUT } -----------
 pipeline.export({
-    outputDirectory: "C:\\Users\\cat\\BSManager\\BSInstances\\1.40.8\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY"
+    outputDirectory: "C:\\Users\\cat\\BSManager\\BSInstances\\1.40.8\\Beat Saber_Data\\CustomWIPLevels\\FALLAWAY",
+zip: {
+        name: 'fall',
+        includeBundles: true
+    },
 })

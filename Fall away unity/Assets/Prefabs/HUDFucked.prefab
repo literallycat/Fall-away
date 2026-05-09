@@ -169,7 +169,6 @@ GameObject:
   - component: {fileID: 1796926654941809781}
   - component: {fileID: 1796926654941809770}
   - component: {fileID: 1796926654941809771}
-  - component: {fileID: 1796926654941809780}
   m_Layer: 0
   m_Name: hypr
   m_TagString: Untagged
@@ -238,19 +237,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1796926654941809780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796926654941809782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b43bb81149364c548f4afb6e222b10e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: 49
 --- !u!1 &1796926655849453387
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +327,7 @@ GameObject:
   - component: {fileID: 1796926656075597037}
   - component: {fileID: 1796926656075597038}
   m_Layer: 0
-  m_Name: HUD
+  m_Name: HUDFucked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

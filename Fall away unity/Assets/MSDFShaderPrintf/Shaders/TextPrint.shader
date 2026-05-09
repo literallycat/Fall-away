@@ -8,6 +8,7 @@ Shader "MSDFShaderUn/TextPrint"
         _FGColor ("Colour",Color) = (0,0,0,0)
     			_VScroll ("Vertical Scroll", Range(0,1)) = 0
 		_HScroll ("Horizontal Scroll", Range(0,1)) = 0
+	[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Int) = 2
 
 
     }
@@ -15,7 +16,7 @@ Shader "MSDFShaderUn/TextPrint"
     {
        		Tags {"Queue"="Transparent" "RenderType"="Transparent"}
 
-
+	 Cull [_Cull]
         Pass
         {
             Blend SrcAlpha OneMinusSrcAlpha

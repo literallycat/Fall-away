@@ -190,6 +190,19 @@ AnimationClip:
     path: fastlightsthign
     classID: 199
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
+    - time: 188.25
+      value: {fileID: 2100000, guid: 8cb180a0e232337449f296dda9df9f73, type: 2}
+    - time: 248.76666
+      value: {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
+    - time: 248.78333
+      value: {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
+    attribute: m_Materials.Array.data[0]
+    path: funni guy
+    classID: 199
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -253,6 +266,13 @@ AnimationClip:
       typeID: 199
       customType: 21
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 3333294442
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 199
+      customType: 21
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 2100000, guid: da094be0787a016eca5297c71409f726, type: 2}
     - {fileID: 2100000, guid: 6586a2b2b98761fc48d229dc545acbc1, type: 2}
@@ -269,12 +289,16 @@ AnimationClip:
     - {fileID: 2100000, guid: da41b658e67471e83bb33e0ed84ad682, type: 2}
     - {fileID: 2100000, guid: 0758f3c9e277e386a94f5ce53950454b, type: 2}
     - {fileID: 2100000, guid: 0758f3c9e277e386a94f5ce53950454b, type: 2}
+    - {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
+    - {fileID: 2100000, guid: 8cb180a0e232337449f296dda9df9f73, type: 2}
+    - {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
+    - {fileID: 2100000, guid: 7a58e8c95a5e37647aff131463c56f4c, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 248.76666
+    m_StopTime: 248.79999
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

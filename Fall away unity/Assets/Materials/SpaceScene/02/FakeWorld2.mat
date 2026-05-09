@@ -25,6 +25,7 @@ Material:
     _EmissionBaseColorAsMapAnimated: 1
     _EmissionFluorescenceAnimated: 1
     _EmissionStrengthAnimated: 1
+    _HeightStepsMinAnimated: 1
     _HeightStrengthAnimated: 1
     _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
     _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
@@ -1269,7 +1270,7 @@ Material:
     - _HeightMapUV: 0
     - _HeightOffset: 0.459
     - _HeightStepsMax: 2
-    - _HeightStepsMin: 2
+    - _HeightStepsMin: 0
     - _HeightStrength: 0
     - _HeightmaskChannel: 0
     - _HeightmaskInvert: 0
@@ -1767,7 +1768,7 @@ Material:
     - _ParallaxInternalHueShiftEnabled: 0
     - _ParallaxInternalHueShiftPerLevel: 0
     - _ParallaxInternalHueShiftSpeed: 0
-    - _ParallaxInternalIterations: 4
+    - _ParallaxInternalIterations: 8
     - _ParallaxInternalMapMaskChannel: 0
     - _ParallaxInternalMapMaskUV: 0
     - _ParallaxInternalMaxColorThemeIndex: 0

@@ -12,7 +12,7 @@
   "_previewDuration" : 10,
   "_songFilename" : "fallaway.ogg",
   "_coverImageFilename" : "ab67616d0000b27320e96424c1fc8b1b1272f3e4.jpg",
-  "_environmentName" : "DefaultEnvironment",
+  "_environmentName" : "BillieEnvironment",
   "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
   "_environmentNames" : [
     "DefaultEnvironment"
@@ -54,13 +54,6 @@
   ],
   "_customData" : {
     "_editors" : {
-      "_settings": {
-        "_playerOptions":{
-          "_leftHanded": true,
-          "_hideNoteSpawnEffect": true,
-          "_noTextsAndHuds": true
-        }
-      },
       "_lastEditedBy" : "ChroMapper",
       "ChroMapper" : {
         "version" : "0.13.892"

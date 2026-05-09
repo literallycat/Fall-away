@@ -12087,6 +12087,35 @@
         }
       }
     },
+    "particles 1 (1)": {
+      "path": "assets/materials/spacescene/02/particles 1.mat",
+      "properties": {
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SRef": {
+          "value": 250.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SComp": {
+          "value": 6.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SOp": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
     "earth 1 (1)": {
       "path": "assets/materials/spacescene/02/stencil/earth 1.mat",
       "properties": {
@@ -14533,6 +14562,35 @@
         }
       }
     },
+    "particles 2": {
+      "path": "assets/materials/spacescene/02/stencil/particles 2.mat",
+      "properties": {
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_SRef": {
+          "value": 200.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SComp": {
+          "value": 3.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_SOp": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
     "particles": {
       "path": "assets/materials/spacescene/particles.mat",
       "properties": {
@@ -14802,6 +14860,12 @@
           "type": {
             "Float": null
           }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
         }
       }
     },
@@ -14839,6 +14903,12 @@
         },
         "_HScroll": {
           "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
           "type": {
             "Float": null
           }
@@ -14882,6 +14952,12 @@
           "type": {
             "Float": null
           }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
         }
       }
     },
@@ -14922,6 +14998,12 @@
           "type": {
             "Float": null
           }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
         }
       }
     },
@@ -14958,29 +15040,294 @@
           }
         }
       }
+    },
+    "1": {
+      "path": "assets/text/spacefasttext/mats/1.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "2": {
+      "path": "assets/text/spacefasttext/mats/2.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "3": {
+      "path": "assets/text/spacefasttext/mats/3.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "4": {
+      "path": "assets/text/spacefasttext/mats/4.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "5": {
+      "path": "assets/text/spacefasttext/mats/5.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "6": {
+      "path": "assets/text/spacefasttext/mats/6.mat",
+      "properties": {
+        "_UdonMSDFPrintf": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TextTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_FGColor": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_VScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_HScroll": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_Cull": {
+          "value": 2.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
     }
   },
   "prefabs": {
     "endhouse": "assets/prefabs/endhouse.prefab",
     "finalscene": "assets/prefabs/finalscene.prefab",
     "hudenabled": "assets/prefabs/hudenabled.prefab",
-    "hudfucked": "assets/prefabs/hudfucked.prefab",
     "hyperdrive01": "assets/prefabs/hyperdrive01.prefab",
     "hyperdrive02": "assets/prefabs/hyperdrive02.prefab",
     "nuhouse": "assets/prefabs/nuhouse.prefab",
     "tvv": "assets/prefabs/old/tvv.prefab",
     "space02": "assets/prefabs/space02.prefab",
     "spacescene": "assets/prefabs/spacescene.prefab",
-    "testhud": "assets/prefabs/tests/testhud.prefab",
+    "texthost": "assets/prefabs/texthost.prefab",
     "rsih saber": "assets/rsih saber/rsih saber.prefab"
   },
   "bundleFiles": [
+    "C:/Users/cat/Documents/Fall-away/bundleAndroid2021.vivify",
     "C:/Users/cat/Documents/Fall-away/bundleWindows2019.vivify",
     "C:/Users/cat/Documents/Fall-away/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2019": 3604846851,
-    "_windows2021": 790673049
+    "_android2021": 3744920034,
+    "_windows2019": 1879940564,
+    "_windows2021": 4041153144
   },
   "isCompressed": true
 }
