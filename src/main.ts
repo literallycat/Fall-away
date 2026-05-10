@@ -2,9 +2,6 @@ import * as rm from "https://deno.land/x/remapper@4.2.1/src/mod.ts"
 import * as bundleInfo from '../bundleinfo.json' with { type: 'json' }
 //import * as cache from '../RM_Cache.json' with { type: 'json' }
 import {Times} from "./consts.ts"
-import {
-    SetRenderingSettings
-} from "../remapper/src/internals/beatmap/object/custom_event/vivify/set_rendering_setting.ts";
 
 //console.log("GIVE IT UP FOR RUN "+ (cache.default.runs +1))
 
@@ -30,7 +27,6 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
     map.difficultyInfo.settingsSetter = {
         colors: {},
         graphics: {
-            mainEffectGraphicsSettings: "On",
             // maxShockwaveParticles: 0,
             screenDisplacementEffectsEnabled: false
         },
