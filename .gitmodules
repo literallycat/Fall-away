@@ -4,9 +4,6 @@
 [submodule "Fall away unity/submodules/ShaderForge"]
 	path = Fall away unity/submodules/ShaderForge
 	url = https://github.com/FreyaHolmer/ShaderForge/
-[submodule "Fall away unity/Assets/Shaders/VRC-Cancerspace"]
-	path = Fall away unity/Assets/Shaders/VRC-Cancerspace
-	url = https://github.com/AkaiMage/VRC-Cancerspace/
 [submodule "Fall away unity/Assets/VRC-Avatar-Performance-Tools"]
 	path = Fall away unity/Assets/VRC-Avatar-Performance-Tools
 	url = https://github.com/Thryrallo/VRC-Avatar-Performance-Tools
