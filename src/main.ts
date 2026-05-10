@@ -81,7 +81,9 @@ async function doMap(file: rm.DIFFICULTY_NAME) {
 
     // create ui stuff
     const _HUD = prefabs.hudenabled.instantiate(map,{ beat: Times.Space01, track: "HUDTrack"})
+    const _DesktopHUD = prefabs.hudfaraway.instantiate(map,Times.Space01)
     rm.animateTrack(map,{beat: Times.Space01, track: "HUDTrack", duration: 99999, animation: {rotation: ["baseHeadRotation.s10"], position: ["baseHeadPosition.s10"]} })
+    materials.rendershit.blit(map,{beat: Times.Space01, duration: 99999, priority: 10, order: "BeforeMainEffect"})
     materials.static.blit(map,47,2)
     // instantiations and destructionk
     const fakeHouse = prefabs.nuhouse.instantiate(map,Times.FakeHouse)

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9259589890519325}
   - component: {fileID: 8130762474576489315}
   - component: {fileID: 6755022498062226399}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: InfoBoxS2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5899958589958712172}
   - component: {fileID: 2825222624005719113}
   - component: {fileID: 6097154028268534588}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: USr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438791963962064587}
   m_LocalRotation: {x: -0.00000013240823, y: -0.7071068, z: 0.7071068, w: -0.00000013240823}
-  m_LocalPosition: {x: 0.09999986, y: 0.6579999, z: 1.954}
+  m_LocalPosition: {x: 0.09999986, y: 0.67, z: 1.954}
   m_LocalScale: {x: 0.06977044, y: 0.011689999, z: 0.005173472}
   m_Children: []
   m_Father: {fileID: 1796926656075597037}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 1796926654294386867}
   - component: {fileID: 1796926654294386864}
   - component: {fileID: 1796926654294386865}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 1796926654941809781}
   - component: {fileID: 1796926654941809770}
   - component: {fileID: 1796926654941809771}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: hypr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,13 +327,13 @@ GameObject:
   - component: {fileID: 1796926655849453386}
   - component: {fileID: 1796926655849453391}
   - component: {fileID: 1796926655849453384}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: InfoBoxS1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1796926655849453386
 Transform:
   m_ObjectHideFlags: 0
@@ -342,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796926655849453387}
   m_LocalRotation: {x: -0.00000013240823, y: -0.7071068, z: 0.7071068, w: -0.00000013240823}
-  m_LocalPosition: {x: -0.12100002, y: 0.27799997, z: 1.9680004}
+  m_LocalPosition: {x: -0.134, y: 0.27799997, z: 1.9680004}
   m_LocalScale: {x: 0.11, y: 0, z: 0.053664}
   m_Children: []
   m_Father: {fileID: 1796926656075597037}
@@ -405,7 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796926656075597037}
   - component: {fileID: -7629512590967560171}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: HUDENabled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 1796926656293879393}
   - component: {fileID: 1796926656293879398}
   - component: {fileID: 1796926656293879399}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: cpyRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 7205983191705385266}
   - component: {fileID: 1774130074403186711}
   - component: {fileID: 4944244099956132632}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Isolate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,13 +624,13 @@ GameObject:
   - component: {fileID: 2748099279184193501}
   - component: {fileID: 2743634902764557924}
   - component: {fileID: 7175499358327870470}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: InfoHDrive1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2748099279184193501
 Transform:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3219691592289275721}
   m_LocalRotation: {x: -0.00000013240823, y: -0.7071068, z: 0.7071068, w: -0.00000013240823}
-  m_LocalPosition: {x: -0.28200012, y: 0.42699993, z: 1.9680004}
+  m_LocalPosition: {x: -0.265, y: 0.42699993, z: 1.9680004}
   m_LocalScale: {x: 0.084410004, y: 0, z: 0.023169998}
   m_Children: []
   m_Father: {fileID: 1796926656075597037}
@@ -703,13 +703,13 @@ GameObject:
   - component: {fileID: 3992654694934589550}
   - component: {fileID: 7890910911821906858}
   - component: {fileID: 7813174563470735741}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3992654694934589550
 Transform:
   m_ObjectHideFlags: 0
@@ -718,7 +718,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3750222197422839583}
   m_LocalRotation: {x: -0.00000013240823, y: -0.7071068, z: 0.7071068, w: -0.00000013240823}
-  m_LocalPosition: {x: -0.2600001, y: 0.4009999, z: 1.9680004}
+  m_LocalPosition: {x: -0.225, y: 0.4009999, z: 1.9680004}
   m_LocalScale: {x: 0.091556296, y: 0, z: 0.02596318}
   m_Children: []
   m_Father: {fileID: 1796926656075597037}
@@ -782,13 +782,13 @@ GameObject:
   - component: {fileID: 781710764323082674}
   - component: {fileID: 61687759276414197}
   - component: {fileID: 8159682762150188457}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: InfoBoxS22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &781710764323082674
 Transform:
   m_ObjectHideFlags: 0
@@ -797,7 +797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7566104566800972850}
   m_LocalRotation: {x: -0.00000013240823, y: -0.7071068, z: 0.7071068, w: -0.00000013240823}
-  m_LocalPosition: {x: -0.13700014, y: 0.3449999, z: 1.9680004}
+  m_LocalPosition: {x: -0.125, y: 0.3449999, z: 1.9680004}
   m_LocalScale: {x: 0.112227395, y: 0, z: 0.036696516}
   m_Children: []
   m_Father: {fileID: 1796926656075597037}
